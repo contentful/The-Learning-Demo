@@ -8,6 +8,7 @@
     - "en-US"
     - "de-DE"
 1. import `contentful_exports/SEDemo.json` into a new blank space
+1. Example: contentful space import --content-file contentful_exports/SEDemo.json --space-id <your space ID>
 1. change values in `src/components/config.js` to match your space
 1. run `yarn` or `npm install`
 1. run `yarn run dev` or `npm run dev`
