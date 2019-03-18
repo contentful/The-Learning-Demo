@@ -1,0 +1,6 @@
+{
+  "name": "contentful-demo",
+  "alias": "twd-demo.now.sh",
+  "dotenv": true,
+  "public": true
+}

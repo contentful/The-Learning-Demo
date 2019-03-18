@@ -1,0 +1,45 @@
+{
+  "name": "the-winning-demo",
+  "version": "1.0.0",
+  "description": "The Contentful Winning Demo",
+  "main": "index.js",
+  "repository": "git@github.com/contentful/the-winning-demo.git",
+  "scripts": {
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "webpack -p --define process.env.NODE_ENV='\"production\"'",
+    "deploy": "now --public && now alias && now rm contentful-demo --safe --yes",
+    "start": "node server.js",
+    "now-start": "NODE_ENV=production node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "jsdom": "^8.1.0",
+    "react-addons-test-utils": "^0.14.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.0",
+    "babel-preset-stage-1": "^6.1.18",
+    "bulma": "^0.6.2",
+    "compression": "^1.7.2",
+    "contentful": "^7.0.5",
+    "dotenv": "^5.0.1",
+    "lodash": "^4.17.5",
+    "marked": "^0.3.6",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.0.0",
+    "react-remarkable": "^1.1.3",
+    "react-router": "^2.0.1",
+    "react-slick": "^0.22.3",
+    "react-text-truncate": "^0.8.3",
+    "redux": "^3.0.4",
+    "redux-promise": "^0.5.3"
+  }
+}
