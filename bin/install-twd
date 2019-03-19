@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo " Welcome to The Learning Demo installer"
+
+echo "Let's get started - what is your Contentful Space ID?"
+
+read spaceid
+
+echo "We'll use your master environment for now"
+
+echo "Your space id is $spaceid"
+
