@@ -7,14 +7,16 @@ echo "What is your Contentful Space ID?"
 read spaceid
 echo "What is your space's Content Delivery API token?"
 read cdatoken
-echo "We're going to create a new environment named demo."
 echo "Let's start!"
-contentful space environment create --environment-id 'demo' --name 'Demo' --space-id '$spaceid'
-# add locales here
-echo pwd
+echo "Deleting demo environment if it already exists"
+contentful space environment delete --environment-id 'demo' --space-id $spaceid
 echo "About to import content from contentful_exports/SEDemo.json"
-contentful space import --content-file contentful_exports/SEDemo.json --space-id '$spaceid' --environment-id 'demo'
-# run SED to edit config.js here
+contentful space import --content-file contentful_exports/SEDemo.json --space-id $spaceid
+sed -i -e "s/space_id: ''/space_id: '$spaceid'/" src/components/config.js
+sed -i -e "s/delivery_token: ''/delivery_token: '$cdatoken'/" src/components/config.js
+echo "We're going to create a new environment named demo."
+contentful space environment create --environment-id 'demo' --name 'Demo' --space-id $spaceid
+# add locales here
 echo "About to run npm install"
 npm install
 echo "About to start server - go to http://localhost:8080 to see the demo"

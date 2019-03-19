@@ -37,6 +37,8 @@ export default class ProductShow extends Component {
     options.space = space_id ? space_id : config.space_id
     options.host = is_preview ? 'preview.contentful.com' : undefined
     options.accessToken = access_token ? access_token : is_preview ? config.preview_token : config.delivery_token
+    // hard code to start
+    options.environment = config.environment ? config.environment : 'master';
     
     const contentfulClient = contentful.createClient(options)
     //Get the locales setup for the space and do necessary processing

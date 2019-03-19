@@ -1,13 +1,12 @@
 module.exports = {
   // /*preview host url*/ 
   // host: "preview.contentful.com",
-  space_id: '2ppvua8j7e1p',
+  space_id: 'd560sv2otlha',
   /*master DELIVERY*/
-  delivery_token: 'e0e30e8fb63b39c09dc45b8f0673e706243506f62bc90736dc76608f8594827e',
+  delivery_token: '66907a355c25d54a97429bb42de4b9f71c04eb3ddb2cf441c5bcf66db6f211a7',
   ///*master PREVIEW*/
-  preview_token: 'f385034c85a491fcf83c4d2a2749dbb2dc111f03d38e4d09915abc391453d5e4'
-    
-  //environment: "[ENV_NAME]",
+  preview_token: '',
+  environment: 'demo',
   ///*env PREVIEW*/ accessToken: "[ENV_CPA_TOKEN]",
   ///*env DELIVERY*/accessToken: "[ENV_CDA_TOKEN]"
 }
