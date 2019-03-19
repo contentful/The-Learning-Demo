@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import * as contentful from 'contentful';
 import Section from './section';
 import LocaleSelect from './locale_select';
-import config from './config.contentful-demo';
+import config from './config';
 
 const TEST_IMAGE_URL = "https://images.ctfassets.net/34zhepmq2vpx/4ClyFr0XGwcOiKUMyyiMKO/c47e029fa790bf3c01b8900bd6cacf87/TWD_Test_Image6.png";
 

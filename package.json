@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "webpack -p --define process.env.NODE_ENV='\"production\"'",
-    "deploy": "now --public && now alias && now rm contentful-demo --safe --yes",
+    "deploy": "now --public && now alias",
     "start": "node server.js",
     "now-start": "NODE_ENV=production node server.js"
   },

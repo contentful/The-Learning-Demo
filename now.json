@@ -1,6 +1,5 @@
 {
-  "name": "contentful-demo",
-  "alias": "twd-demo.now.sh",
-  "dotenv": true,
+  "name": "contentful-learning-demo",
+  "alias": "tld-demo.now.sh",
   "public": true
 }
