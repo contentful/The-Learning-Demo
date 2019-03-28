@@ -1,5 +1,11 @@
 # Contentful Learning Demo
 
+## Overview
+
+The Contentful Learning Demo is a fork of The Winning Demo. We've attempted to make it easy to for anyone in the company to be able to install this demo locally on their laptop. 
+
+Because the demo uses content from the `demo` environment you can simply delete the `demo` environment after giving a demo where you have made content changes, create a new `demo` environment, and you should have a clean set of new content for your demo.
+
 ## Steps to run:
 
 The below steps are for Mac users. If you are on Windows you will need to use an application like Putty in place of the Mac terminal application.
