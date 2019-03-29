@@ -10,7 +10,7 @@ Because the demo uses content from the `demo` environment you can simply delete 
 
 ### Mac Users
 
-1. Make sure you have [Node.js](https://blog.teamtreehouse.com/install-node-js-npm-mac)installed on your Mac. Double check it got installed by checking what version you are on `node --version`.
+1. Make sure you have [Node.js](https://blog.teamtreehouse.com/install-node-js-npm-mac) installed on your Mac. Double check it got installed by checking what version you are on `node --version`.
 2. Install the Contentful CLI on your laptop - `npm install -g contentful-cli`.
 3. Create/select a new Contentful space that supports 2 or more environments.
 4. Start the Terminal application.
