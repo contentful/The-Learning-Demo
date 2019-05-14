@@ -19,6 +19,6 @@ contentful space environment create --environment-id 'demo' --name 'Demo' --spac
 # add locales here
 echo "About to run npm install"
 npm install
-echo "About to start server - go to http://localhost:8080 to see the demo"
-npm run dev
+echo "To start your web server and demo type: npm run dev"
+echo "To see the demo bring up a web browser and go to http://localhost:8080"
 
