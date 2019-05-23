@@ -20,7 +20,8 @@
     "babel-preset-react": "^6.1.18",
     "jsdom": "^8.1.0",
     "react-addons-test-utils": "^0.14.7",
-    "webpack": "^1.12.9",
+    "webpack": "^1.15.0",
+    "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
