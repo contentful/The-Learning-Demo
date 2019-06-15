@@ -1,6 +1,6 @@
 # Contentful Learning Demo
 
-1. Bring up a Terminal window on your Mac - the application named “Terminal”.
+1. Bring up a Terminal window on your Mac - the application named “Terminal”. 
 2. Make sure you have Node.js installed on your Mac. Double-check it got installed by looking at what version you are on by typing `node --version` in the terminal window.
 3. Install the Contentful CLI on your laptop - `npm install -g contentful-cli`.
 4. Store your Content Management API token on your laptop for future use by typing `contentful login` in your terminal window and follow the prompts.
