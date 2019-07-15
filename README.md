@@ -5,7 +5,7 @@
 3. Install the Contentful CLI on your laptop - `npm install -g contentful-cli`.
 4. Store your Content Management API token on your laptop for future use by typing `contentful login` in your terminal window and follow the prompts.
 5. Create/select a new Contentful space that supports 2 or more environments.
-6. Download a Zip file of the demo repo from this repo or `http://bit.ly/cancun-demo`.
+6. Download a Zip file of the demo repo from this repo or `http://bit.ly/tld-cancun`.
 7. Create a new directory for the demo on your laptop `mkdir tld`.
 8. Go to the new directory `cd tld`.
 9. Double-click on the Zip file to uncompress it and move it to your tld directory `cp -rf ~/Downloads/The-Learning-Demo-master ~/tld`.
