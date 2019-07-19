@@ -7,7 +7,7 @@ import ProductShow from './components/product_show';
 
 export default (
   <Route path="/" component={App}>
-    <IndexRoute component={ProductsIndex}/>
+      <IndexRoute component={ProductShow}/>
     <Route path ="/:slug" component={ProductShow} />
   </Route>
 );
