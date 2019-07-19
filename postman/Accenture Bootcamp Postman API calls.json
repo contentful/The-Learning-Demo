@@ -1,0 +1,709 @@
+{
+	"info": {
+		"_postman_id": "3ceb1abd-8bab-42ad-bb9b-57ae9e6bdbbf",
+		"name": "Contentful Bootcamp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CMA Create Entry",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{cmaToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/vnd.contentful.management.v1+json",
+						"type": "text"
+					},
+					{
+						"key": "X-Contentful-Content-Type",
+						"value": "blogPost2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"fields\": {\n    \"title\": {\n      \"en-US\": \"Hello Toronto!\"\n    },\n    \"body\": {\n      \"en-US\": \"Welcome to our awesome Accenture partner training!\"\n    },\n    \"author\": {\n      \"en-US\": \"Jim Ambras\"\n    }\n  }\n}\n"
+				},
+				"url": {
+					"raw": "{{cmaUri}}/spaces/{{spaceId}}/environments/master/entries/{{postEntryId}}",
+					"host": [
+						"{{cmaUri}}"
+					],
+					"path": [
+						"spaces",
+						"{{spaceId}}",
+						"environments",
+						"master",
+						"entries",
+						"{{postEntryId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CMA Publish Entry",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{cmaToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/vnd.contentful.management.v1+json"
+					},
+					{
+						"key": "X-Contentful-Content-Type",
+						"type": "text",
+						"value": "blogPost2"
+					},
+					{
+						"key": "X-Contentful-Version",
+						"value": "1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{cmaUri}}/spaces/{{spaceId}}/environments/master/entries/{{postEntryId}}/published?",
+					"host": [
+						"{{cmaUri}}"
+					],
+					"path": [
+						"spaces",
+						"{{spaceId}}",
+						"environments",
+						"master",
+						"entries",
+						"{{postEntryId}}",
+						"published"
+					],
+					"query": [
+						{
+							"key": "X-Contentful-Version",
+							"value": "0",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get entries of a space",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "5f82882fdae8707fa36c06fe490d4c35074a6d72c3b49f29f70b31e7e214fa2e",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{cdaUri}}/spaces/{{spaceId}}/environments/{{environmentId}}/entries?access_token={{cdaToken}}",
+					"host": [
+						"{{cdaUri}}"
+					],
+					"path": [
+						"spaces",
+						"{{spaceId}}",
+						"environments",
+						"{{environmentId}}",
+						"entries"
+					],
+					"query": [
+						{
+							"key": "access_token",
+							"value": "{{cdaToken}}"
+						},
+						{
+							"key": "Authorization",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Blog posts including drafts",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "5f82882fdae8707fa36c06fe490d4c35074a6d72c3b49f29f70b31e7e214fa2e",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{previewUri}}/spaces/{{spaceId}}/environments/{{environmentId}}/entries?access_token={{cpaToken}}&content_type=blogPost",
+					"host": [
+						"{{previewUri}}"
+					],
+					"path": [
+						"spaces",
+						"{{spaceId}}",
+						"environments",
+						"{{environmentId}}",
+						"entries"
+					],
+					"query": [
+						{
+							"key": "access_token",
+							"value": "{{cpaToken}}"
+						},
+						{
+							"key": "Authorization",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "content_type",
+							"value": "blogPost"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Blog published blog posts",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "5f82882fdae8707fa36c06fe490d4c35074a6d72c3b49f29f70b31e7e214fa2e",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{cdaUri}}/spaces/{{spaceId}}/environments/{{environmentId}}/entries?access_token={{cdaToken}}&content_type=blogPost",
+					"host": [
+						"{{cdaUri}}"
+					],
+					"path": [
+						"spaces",
+						"{{spaceId}}",
+						"environments",
+						"{{environmentId}}",
+						"entries"
+					],
+					"query": [
+						{
+							"key": "access_token",
+							"value": "{{cdaToken}}"
+						},
+						{
+							"key": "Authorization",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "content_type",
+							"value": "blogPost"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get the \"person\" content type",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "5f82882fdae8707fa36c06fe490d4c35074a6d72c3b49f29f70b31e7e214fa2e",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{cdaUri}}/spaces/{{spaceId}}/environments/{{environmentId}}/content_types?access_token={{cdaToken}}",
+					"host": [
+						"{{cdaUri}}"
+					],
+					"path": [
+						"spaces",
+						"{{spaceId}}",
+						"environments",
+						"{{environmentId}}",
+						"content_types"
+					],
+					"query": [
+						{
+							"key": "access_token",
+							"value": "{{cdaToken}}"
+						},
+						{
+							"key": "Authorization",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get assets of a space",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "5f82882fdae8707fa36c06fe490d4c35074a6d72c3b49f29f70b31e7e214fa2e",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{cdaUri}}/spaces/{{spaceId}}/environments/{{environmentId}}/entries?access_token={{cdaToken}}",
+					"host": [
+						"{{cdaUri}}"
+					],
+					"path": [
+						"spaces",
+						"{{spaceId}}",
+						"environments",
+						"{{environmentId}}",
+						"entries"
+					],
+					"query": [
+						{
+							"key": "access_token",
+							"value": "{{cdaToken}}"
+						},
+						{
+							"key": "Authorization",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get API Keys",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{cmaUri}}/spaces/{{spaceId}}/api_keys?access_token={{cmaToken}}",
+					"host": [
+						"{{cmaUri}}"
+					],
+					"path": [
+						"spaces",
+						"{{spaceId}}",
+						"api_keys"
+					],
+					"query": [
+						{
+							"key": "access_token",
+							"value": "{{cmaToken}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{imagesUri}}/{{spaceId}}/{{asset_id}}/{{imageToken}}/woman_in_field.jpg",
+					"host": [
+						"{{imagesUri}}"
+					],
+					"path": [
+						"{{spaceId}}",
+						"{{asset_id}}",
+						"{{imageToken}}",
+						"woman_in_field.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get scaled image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{imagesUri}}/{{spaceId}}/{{asset_id}}/{{imageToken}}/woman_in_field.jpg?w=300",
+					"host": [
+						"{{imagesUri}}"
+					],
+					"path": [
+						"{{spaceId}}",
+						"{{asset_id}}",
+						"{{imageToken}}",
+						"woman_in_field.jpg"
+					],
+					"query": [
+						{
+							"key": "w",
+							"value": "300"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get cropped image asset",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "5f82882fdae8707fa36c06fe490d4c35074a6d72c3b49f29f70b31e7e214fa2e",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{imagesUri}}/{{space_id}}/{{asset_id}}/{{image_token}}/woman_in_field.jpg?fit=crop&w=300",
+					"host": [
+						"{{imagesUri}}"
+					],
+					"path": [
+						"{{space_id}}",
+						"{{asset_id}}",
+						"{{image_token}}",
+						"woman_in_field.jpg"
+					],
+					"query": [
+						{
+							"key": "Authorization",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "200",
+							"disabled": true
+						},
+						{
+							"key": "fit",
+							"value": "crop"
+						},
+						{
+							"key": "w",
+							"value": "300"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get image with rounded corners",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "5f82882fdae8707fa36c06fe490d4c35074a6d72c3b49f29f70b31e7e214fa2e",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{imagesUri}}/{{spaceId}}/{{asset_id}}/{{imageToken}}/woman_in_field.jpg?r=90",
+					"host": [
+						"{{imagesUri}}"
+					],
+					"path": [
+						"{{spaceId}}",
+						"{{asset_id}}",
+						"{{imageToken}}",
+						"woman_in_field.jpg"
+					],
+					"query": [
+						{
+							"key": "r",
+							"value": "90"
+						},
+						{
+							"key": "Authorization",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Original Flamingo Product Image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://images.ctfassets.net/vcddf3kukyq9/3yxNIFyJMxtyAbWZcnmdT3/9ac841c42908992dc05396ea30255a11/ProductGallery-StarterSet-Taro_podcast.png?",
+					"protocol": "https",
+					"host": [
+						"images",
+						"ctfassets",
+						"net"
+					],
+					"path": [
+						"vcddf3kukyq9",
+						"3yxNIFyJMxtyAbWZcnmdT3",
+						"9ac841c42908992dc05396ea30255a11",
+						"ProductGallery-StarterSet-Taro_podcast.png"
+					],
+					"query": [
+						{
+							"key": "w",
+							"value": "150",
+							"disabled": true
+						},
+						{
+							"key": "h",
+							"value": "141",
+							"disabled": true
+						},
+						{
+							"key": "q",
+							"value": "90",
+							"disabled": true
+						},
+						{
+							"key": "fm",
+							"value": "webp",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Flamingo Product Image derivative",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://images.ctfassets.net/vcddf3kukyq9/3yxNIFyJMxtyAbWZcnmdT3/9ac841c42908992dc05396ea30255a11/ProductGallery-StarterSet-Taro_podcast.png?w=150&h=140&q=90&fm=webp",
+					"protocol": "https",
+					"host": [
+						"images",
+						"ctfassets",
+						"net"
+					],
+					"path": [
+						"vcddf3kukyq9",
+						"3yxNIFyJMxtyAbWZcnmdT3",
+						"9ac841c42908992dc05396ea30255a11",
+						"ProductGallery-StarterSet-Taro_podcast.png"
+					],
+					"query": [
+						{
+							"key": "w",
+							"value": "150"
+						},
+						{
+							"key": "h",
+							"value": "140"
+						},
+						{
+							"key": "q",
+							"value": "90"
+						},
+						{
+							"key": "fm",
+							"value": "webp"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get hero image with Cloudinary IDs",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "5f82882fdae8707fa36c06fe490d4c35074a6d72c3b49f29f70b31e7e214fa2e",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{cdaUri}}/spaces/{{tldSpaceId}}/environments/{{environmentId}}/entries?access_token=P-1vqr8lBcMX3Qq7JWs2UaBByd5PZnXhLJgskxE1fKk&content_type=heroImage",
+					"host": [
+						"{{cdaUri}}"
+					],
+					"path": [
+						"spaces",
+						"{{tldSpaceId}}",
+						"environments",
+						"{{environmentId}}",
+						"entries"
+					],
+					"query": [
+						{
+							"key": "access_token",
+							"value": "P-1vqr8lBcMX3Qq7JWs2UaBByd5PZnXhLJgskxE1fKk"
+						},
+						{
+							"key": "Authorization",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "content_type",
+							"value": "heroImage"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Wistia Lambda API Call",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://5fkdg74rgi.execute-api.us-east-1.amazonaws.com/default/Wistia",
+					"protocol": "https",
+					"host": [
+						"5fkdg74rgi",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"default",
+						"Wistia"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
