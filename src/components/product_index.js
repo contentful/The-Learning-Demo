@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 import * as contentful from 'contentful';
-import config from './config.contentful-demo';
+import config from './config';
 
 export default class ProductsIndex extends Component {
   constructor(props) {
