@@ -5,7 +5,7 @@ class Footer extends Component {
     return(
       <footer className="wrapper style1 align-center">
         <div className="inner">
-          <div>Contentful SE Team</div>
+          <div>Contentful Learning Services</div>
         </div>
       </footer>
     );
