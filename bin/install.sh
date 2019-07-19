@@ -17,8 +17,8 @@ sed -i -e "s/delivery_token: ''/delivery_token: '$cdatoken'/" src/components/con
 echo "We're going to create a new environment named demo."
 contentful space environment create --environment-id 'demo' --name 'Demo' --space-id $spaceid
 # add locales here
-echo "About to run npm install - you will need to enter your login password"
-sudo npm install
+echo "About to run npm install"
+npm install
 echo -e "To start your web server and demo type: npm run dev"
 echo "To see the demo bring up a web browser and go to http://localhost:8080"
 
