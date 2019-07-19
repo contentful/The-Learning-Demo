@@ -1,9 +1,9 @@
 {
-  "name": "the-winning-demo",
+  "name": "the-learning-demo",
   "version": "1.0.0",
-  "description": "The Contentful Winning Demo",
+  "description": "The Contentful Learning Demo",
   "main": "index.js",
-  "repository": "git@github.com/contentful/the-winning-demo.git",
+  "repository": "git@github.com/contentful/the-learning-demo.git",
   "scripts": {
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "webpack -p --define process.env.NODE_ENV='\"production\"'",

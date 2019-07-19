@@ -18,10 +18,6 @@ export default class HeroImage extends React.Component {
       imageURL = imageURL + '?w=1600&q=80&fm=jpg&fl=progressive';
     }
 
-
-//    console.log("JPA Debugging");
-//    console.log(this.props.fields);
-
     return (
         <div data-content-type='heroImage'
              className="hero-image"
