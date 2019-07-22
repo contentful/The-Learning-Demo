@@ -12,7 +12,7 @@
         "id": "imageWithCaption",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:26.611Z",
-        "updatedAt": "2019-07-22T20:03:46.045Z",
+        "updatedAt": "2019-07-22T20:54:20.052Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -20,8 +20,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:03:46.045Z",
+        "publishedVersion": 55,
+        "publishedAt": "2019-07-22T20:54:20.052Z",
         "firstPublishedAt": "2019-05-22T22:54:34.147Z",
         "createdBy": {
           "sys": {
@@ -37,8 +37,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 28,
+        "version": 56,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -104,7 +104,7 @@
         "id": "textWithImage",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:26.616Z",
-        "updatedAt": "2019-07-22T20:03:52.942Z",
+        "updatedAt": "2019-07-22T20:34:31.003Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -112,8 +112,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:03:52.942Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:34:31.003Z",
         "firstPublishedAt": "2019-05-22T22:54:35.336Z",
         "createdBy": {
           "sys": {
@@ -129,8 +129,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -213,7 +213,7 @@
         "id": "imageCarousel",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:26.637Z",
-        "updatedAt": "2019-07-22T20:03:52.318Z",
+        "updatedAt": "2019-07-22T20:34:30.538Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -221,8 +221,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:03:52.318Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:34:30.538Z",
         "firstPublishedAt": "2019-05-22T22:54:33.594Z",
         "createdBy": {
           "sys": {
@@ -238,8 +238,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -299,7 +299,7 @@
         "id": "heroImage",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:26.639Z",
-        "updatedAt": "2019-07-22T20:11:17.530Z",
+        "updatedAt": "2019-07-22T20:56:06.144Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -307,8 +307,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 83,
-        "publishedAt": "2019-07-22T20:11:17.530Z",
+        "publishedVersion": 91,
+        "publishedAt": "2019-07-22T20:56:06.144Z",
         "firstPublishedAt": "2019-05-22T22:54:27.865Z",
         "createdBy": {
           "sys": {
@@ -324,8 +324,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 42,
-        "version": 84,
+        "publishedCounter": 46,
+        "version": 92,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -380,7 +380,7 @@
         "id": "paragraphWithHeadline",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:26.645Z",
-        "updatedAt": "2019-07-22T20:03:51.388Z",
+        "updatedAt": "2019-07-22T20:34:29.449Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -388,8 +388,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:03:51.388Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:34:29.449Z",
         "firstPublishedAt": "2019-05-22T22:54:34.716Z",
         "createdBy": {
           "sys": {
@@ -405,8 +405,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -466,7 +466,7 @@
         "id": "callToAction",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:26.657Z",
-        "updatedAt": "2019-07-22T20:03:50.876Z",
+        "updatedAt": "2019-07-22T20:54:53.314Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -474,8 +474,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:03:50.876Z",
+        "publishedVersion": 55,
+        "publishedAt": "2019-07-22T20:54:53.314Z",
         "firstPublishedAt": "2019-05-22T22:54:33.071Z",
         "createdBy": {
           "sys": {
@@ -491,8 +491,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 28,
+        "version": 56,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -552,7 +552,7 @@
         "id": "product",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:27.058Z",
-        "updatedAt": "2019-07-22T20:03:50.178Z",
+        "updatedAt": "2019-07-22T20:34:28.417Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -560,8 +560,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:03:50.178Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:34:28.417Z",
         "firstPublishedAt": "2019-05-22T22:54:30.725Z",
         "createdBy": {
           "sys": {
@@ -577,8 +577,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -680,7 +680,7 @@
         "id": "header",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:27.071Z",
-        "updatedAt": "2019-07-22T20:03:49.674Z",
+        "updatedAt": "2019-07-22T20:34:26.954Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -688,8 +688,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:03:49.674Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:34:26.954Z",
         "firstPublishedAt": "2019-05-22T22:54:30.179Z",
         "createdBy": {
           "sys": {
@@ -705,8 +705,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -779,7 +779,7 @@
         "id": "headline",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:27.071Z",
-        "updatedAt": "2019-07-22T20:03:48.870Z",
+        "updatedAt": "2019-07-22T20:55:35.989Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -787,8 +787,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:03:48.870Z",
+        "publishedVersion": 55,
+        "publishedAt": "2019-07-22T20:55:35.989Z",
         "firstPublishedAt": "2019-05-22T22:54:31.326Z",
         "createdBy": {
           "sys": {
@@ -804,8 +804,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 28,
+        "version": 56,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -865,7 +865,7 @@
         "id": "link",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:27.112Z",
-        "updatedAt": "2019-07-22T20:03:48.315Z",
+        "updatedAt": "2019-07-22T20:34:26.074Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -873,8 +873,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:03:48.315Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:34:26.074Z",
         "firstPublishedAt": "2019-05-22T22:54:29.691Z",
         "createdBy": {
           "sys": {
@@ -890,8 +890,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -956,7 +956,7 @@
         "id": "paragraphOnly",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:27.437Z",
-        "updatedAt": "2019-07-22T20:03:47.902Z",
+        "updatedAt": "2019-07-22T20:57:06.856Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -964,8 +964,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:03:47.902Z",
+        "publishedVersion": 55,
+        "publishedAt": "2019-07-22T20:57:06.856Z",
         "firstPublishedAt": "2019-05-22T22:54:29.185Z",
         "createdBy": {
           "sys": {
@@ -981,8 +981,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 28,
+        "version": 56,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1070,7 +1070,7 @@
         "id": "seoMetadata",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:27.446Z",
-        "updatedAt": "2019-07-22T20:03:47.498Z",
+        "updatedAt": "2019-07-22T20:34:25.012Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1078,8 +1078,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:03:47.498Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:34:25.012Z",
         "firstPublishedAt": "2019-05-22T22:54:28.456Z",
         "createdBy": {
           "sys": {
@@ -1095,8 +1095,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1184,7 +1184,7 @@
         "id": "setOfTwo",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:27.458Z",
-        "updatedAt": "2019-07-22T20:03:47.084Z",
+        "updatedAt": "2019-07-22T20:34:24.558Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1192,8 +1192,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:03:47.084Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:34:24.558Z",
         "firstPublishedAt": "2019-05-22T22:54:31.957Z",
         "createdBy": {
           "sys": {
@@ -1209,8 +1209,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1282,7 +1282,7 @@
         "id": "setOfThree",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:27.485Z",
-        "updatedAt": "2019-07-22T20:03:46.614Z",
+        "updatedAt": "2019-07-22T20:34:24.107Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1290,8 +1290,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:03:46.614Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:34:24.107Z",
         "firstPublishedAt": "2019-05-22T22:54:32.456Z",
         "createdBy": {
           "sys": {
@@ -1307,8 +1307,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1381,7 +1381,7 @@
             "linkType": "Space"
           }
         },
-        "version": 52,
+        "version": 56,
         "createdAt": "2019-05-22T22:54:34.325Z",
         "createdBy": {
           "sys": {
@@ -1390,7 +1390,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-07-22T20:03:55.338Z",
+        "updatedAt": "2019-07-22T20:54:20.681Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -1416,15 +1416,18 @@
       "controls": [
         {
           "fieldId": "name",
-          "widgetId": "singleLine"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "image",
-          "widgetId": "assetLinkEditor"
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "caption",
-          "widgetId": "translate"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -1439,7 +1442,7 @@
             "linkType": "Space"
           }
         },
-        "version": 52,
+        "version": 54,
         "createdAt": "2019-05-22T22:54:35.499Z",
         "createdBy": {
           "sys": {
@@ -1448,7 +1451,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-07-22T20:03:55.389Z",
+        "updatedAt": "2019-07-22T20:34:35.291Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -1501,7 +1504,7 @@
             "linkType": "Space"
           }
         },
-        "version": 52,
+        "version": 54,
         "createdAt": "2019-05-22T22:54:33.800Z",
         "createdBy": {
           "sys": {
@@ -1510,7 +1513,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-07-22T20:03:55.275Z",
+        "updatedAt": "2019-07-22T20:34:33.499Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -1558,7 +1561,7 @@
             "linkType": "Space"
           }
         },
-        "version": 84,
+        "version": 92,
         "createdAt": "2019-05-22T22:54:28.019Z",
         "createdBy": {
           "sys": {
@@ -1567,7 +1570,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-07-22T20:11:18.079Z",
+        "updatedAt": "2019-07-22T20:56:06.751Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -1614,7 +1617,7 @@
             "linkType": "Space"
           }
         },
-        "version": 52,
+        "version": 54,
         "createdAt": "2019-05-22T22:54:34.860Z",
         "createdBy": {
           "sys": {
@@ -1623,7 +1626,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-07-22T20:03:55.345Z",
+        "updatedAt": "2019-07-22T20:34:35.525Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -1672,7 +1675,7 @@
             "linkType": "Space"
           }
         },
-        "version": 52,
+        "version": 56,
         "createdAt": "2019-05-22T22:54:33.215Z",
         "createdBy": {
           "sys": {
@@ -1681,7 +1684,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-07-22T20:03:57.128Z",
+        "updatedAt": "2019-07-22T20:54:53.926Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -1707,15 +1710,18 @@
       "controls": [
         {
           "fieldId": "name",
-          "widgetId": "singleLine"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "text",
-          "widgetId": "translate"
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "buttonText",
-          "widgetId": "translate"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -1730,7 +1736,7 @@
             "linkType": "Space"
           }
         },
-        "version": 52,
+        "version": 54,
         "createdAt": "2019-05-22T22:54:30.882Z",
         "createdBy": {
           "sys": {
@@ -1739,7 +1745,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-07-22T20:03:57.347Z",
+        "updatedAt": "2019-07-22T20:34:33.551Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -1795,7 +1801,7 @@
             "linkType": "Space"
           }
         },
-        "version": 52,
+        "version": 54,
         "createdAt": "2019-05-22T22:54:30.326Z",
         "createdBy": {
           "sys": {
@@ -1804,7 +1810,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-07-22T20:03:55.377Z",
+        "updatedAt": "2019-07-22T20:34:35.330Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -1856,7 +1862,7 @@
             "linkType": "Space"
           }
         },
-        "version": 52,
+        "version": 56,
         "createdAt": "2019-05-22T22:54:31.522Z",
         "createdBy": {
           "sys": {
@@ -1865,7 +1871,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-07-22T20:03:57.284Z",
+        "updatedAt": "2019-07-22T20:55:36.539Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -1891,18 +1897,21 @@
       "controls": [
         {
           "fieldId": "name",
-          "widgetId": "singleLine"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "headline",
-          "widgetId": "translate"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "subHeadline",
           "settings": {
             "helpText": "The sub-headline is optional. If left blank this will just highlight the headline more. "
           },
-          "widgetId": "singleLine"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -1917,7 +1926,7 @@
             "linkType": "Space"
           }
         },
-        "version": 52,
+        "version": 54,
         "createdAt": "2019-05-22T22:54:29.833Z",
         "createdBy": {
           "sys": {
@@ -1926,7 +1935,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-07-22T20:03:57.204Z",
+        "updatedAt": "2019-07-22T20:34:33.510Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -1975,7 +1984,7 @@
             "linkType": "Space"
           }
         },
-        "version": 52,
+        "version": 56,
         "createdAt": "2019-05-22T22:54:29.309Z",
         "createdBy": {
           "sys": {
@@ -1984,7 +1993,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-07-22T20:03:57.207Z",
+        "updatedAt": "2019-07-22T20:57:07.585Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -2010,19 +2019,23 @@
       "controls": [
         {
           "fieldId": "title",
-          "widgetId": "singleLine"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "paragraph",
-          "widgetId": "alloy"
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "reviewState",
-          "widgetId": "dropdown"
+          "widgetId": "dropdown",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "approvedByLegal",
-          "widgetId": "checkbox"
+          "widgetId": "checkbox",
+          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -2037,7 +2050,7 @@
             "linkType": "Space"
           }
         },
-        "version": 52,
+        "version": 54,
         "createdAt": "2019-05-22T22:54:28.706Z",
         "createdBy": {
           "sys": {
@@ -2046,7 +2059,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-07-22T20:03:57.220Z",
+        "updatedAt": "2019-07-22T20:34:35.226Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -2103,7 +2116,7 @@
             "linkType": "Space"
           }
         },
-        "version": 52,
+        "version": 54,
         "createdAt": "2019-05-22T22:54:32.097Z",
         "createdBy": {
           "sys": {
@@ -2112,7 +2125,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-07-22T20:03:57.127Z",
+        "updatedAt": "2019-07-22T20:34:35.471Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -2160,7 +2173,7 @@
             "linkType": "Space"
           }
         },
-        "version": 52,
+        "version": 54,
         "createdAt": "2019-05-22T22:54:32.617Z",
         "createdBy": {
           "sys": {
@@ -2169,7 +2182,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-07-22T20:03:57.524Z",
+        "updatedAt": "2019-07-22T20:34:35.534Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -2220,7 +2233,7 @@
         "id": "1EediKbARi0qKeyQkMEAGg",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:25.146Z",
-        "updatedAt": "2019-07-22T20:06:49.935Z",
+        "updatedAt": "2019-07-22T20:36:04.148Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2228,8 +2241,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:49.935Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:04.148Z",
         "firstPublishedAt": "2019-05-22T22:55:50.577Z",
         "createdBy": {
           "sys": {
@@ -2245,8 +2258,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2293,7 +2306,7 @@
         "id": "mQ2wPhtZCggIOIw6EA4EW",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:25.148Z",
-        "updatedAt": "2019-07-22T20:07:09.626Z",
+        "updatedAt": "2019-07-22T20:36:22.510Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2301,8 +2314,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:09.626Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:22.510Z",
         "firstPublishedAt": "2019-05-22T22:55:49.765Z",
         "createdBy": {
           "sys": {
@@ -2318,8 +2331,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2361,7 +2374,7 @@
         "id": "QhsSKqBwgCCemGOOua2ai",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:25.151Z",
-        "updatedAt": "2019-07-22T20:07:09.213Z",
+        "updatedAt": "2019-07-22T20:36:22.102Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2369,8 +2382,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 65,
-        "publishedAt": "2019-07-22T20:07:09.213Z",
+        "publishedVersion": 67,
+        "publishedAt": "2019-07-22T20:36:22.102Z",
         "firstPublishedAt": "2019-05-22T22:55:31.555Z",
         "createdBy": {
           "sys": {
@@ -2386,8 +2399,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 30,
-        "version": 66,
+        "publishedCounter": 31,
+        "version": 68,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2437,7 +2450,7 @@
         "id": "5gO63KJcNiGOkmEUEycwqE",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:25.154Z",
-        "updatedAt": "2019-07-22T20:07:08.803Z",
+        "updatedAt": "2019-07-22T20:36:21.534Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2445,8 +2458,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:08.803Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:21.534Z",
         "firstPublishedAt": "2019-05-22T22:55:51.088Z",
         "createdBy": {
           "sys": {
@@ -2462,8 +2475,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2510,7 +2523,7 @@
         "id": "342zUubTlekEIM06IQmoEk",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:25.174Z",
-        "updatedAt": "2019-07-22T20:07:08.436Z",
+        "updatedAt": "2019-07-22T20:36:21.123Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2518,8 +2531,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:08.436Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:21.123Z",
         "firstPublishedAt": "2019-05-22T22:55:50.151Z",
         "createdBy": {
           "sys": {
@@ -2535,8 +2548,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2579,7 +2592,7 @@
         "id": "11WW792zpWCg2asWiaYmku",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:25.177Z",
-        "updatedAt": "2019-07-22T20:07:07.862Z",
+        "updatedAt": "2019-07-22T20:36:20.697Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2587,8 +2600,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:07.862Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:20.697Z",
         "firstPublishedAt": "2019-05-22T22:55:49.140Z",
         "createdBy": {
           "sys": {
@@ -2604,8 +2617,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2643,7 +2656,7 @@
         "id": "DIXzFVS5faISKmoAkQg8u",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:25.506Z",
-        "updatedAt": "2019-07-22T20:06:50.367Z",
+        "updatedAt": "2019-07-22T20:36:04.589Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2651,8 +2664,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:50.367Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:04.589Z",
         "firstPublishedAt": "2019-05-22T22:55:32.483Z",
         "createdBy": {
           "sys": {
@@ -2668,8 +2681,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2728,7 +2741,7 @@
         "id": "2XBFRaVj7Oi0cGsESyKAi2",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:25.507Z",
-        "updatedAt": "2019-07-22T20:06:51.087Z",
+        "updatedAt": "2019-07-22T20:36:05.147Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2736,8 +2749,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:51.087Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:05.147Z",
         "firstPublishedAt": "2019-05-22T22:55:32.956Z",
         "createdBy": {
           "sys": {
@@ -2753,8 +2766,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2813,7 +2826,7 @@
         "id": "5DlwUXH0c0WAQqYOIYUQou",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:25.521Z",
-        "updatedAt": "2019-07-22T20:06:51.767Z",
+        "updatedAt": "2019-07-22T20:36:05.624Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2821,8 +2834,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:51.767Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:05.624Z",
         "firstPublishedAt": "2019-05-22T22:55:33.417Z",
         "createdBy": {
           "sys": {
@@ -2838,8 +2851,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2914,7 +2927,7 @@
         "id": "33ELpSwa3u0wIMooyCaa2w",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:25.525Z",
-        "updatedAt": "2019-07-22T20:06:52.164Z",
+        "updatedAt": "2019-07-22T20:36:06.152Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2922,8 +2935,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 55,
-        "publishedAt": "2019-07-22T20:06:52.164Z",
+        "publishedVersion": 57,
+        "publishedAt": "2019-07-22T20:36:06.152Z",
         "firstPublishedAt": "2019-05-22T22:55:32.062Z",
         "createdBy": {
           "sys": {
@@ -2939,8 +2952,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 28,
-        "version": 56,
+        "publishedCounter": 29,
+        "version": 58,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3081,7 +3094,7 @@
         "id": "rZc070QLsWKOIKU40GIWY",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:27.434Z",
-        "updatedAt": "2019-07-22T20:06:52.772Z",
+        "updatedAt": "2019-07-22T20:36:06.655Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3089,8 +3102,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:52.772Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:06.655Z",
         "firstPublishedAt": "2019-05-22T22:55:34.413Z",
         "createdBy": {
           "sys": {
@@ -3106,8 +3119,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3159,7 +3172,7 @@
         "id": "1BEWS4efbWyEmSEiSemOGk",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:27.460Z",
-        "updatedAt": "2019-07-22T20:06:53.285Z",
+        "updatedAt": "2019-07-22T20:36:07.051Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3167,8 +3180,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:53.285Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:07.051Z",
         "firstPublishedAt": "2019-05-22T22:55:33.876Z",
         "createdBy": {
           "sys": {
@@ -3184,8 +3197,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3244,7 +3257,7 @@
         "id": "3AeT0HEinm2UQ0qO8UIccE",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:27.741Z",
-        "updatedAt": "2019-07-22T20:06:53.791Z",
+        "updatedAt": "2019-07-22T20:36:07.454Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3252,8 +3265,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:53.791Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:07.454Z",
         "firstPublishedAt": "2019-05-22T22:55:35.359Z",
         "createdBy": {
           "sys": {
@@ -3269,8 +3282,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3322,7 +3335,7 @@
         "id": "7y8tnfsAakS4GQi6um4sAg",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:27.768Z",
-        "updatedAt": "2019-07-22T20:06:54.271Z",
+        "updatedAt": "2019-07-22T20:36:07.810Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3330,8 +3343,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:54.271Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:07.810Z",
         "firstPublishedAt": "2019-05-22T22:55:34.883Z",
         "createdBy": {
           "sys": {
@@ -3347,8 +3360,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3400,7 +3413,7 @@
         "id": "5XQ7RkRDpu8WOQUAI644iw",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:27.788Z",
-        "updatedAt": "2019-07-22T20:07:07.136Z",
+        "updatedAt": "2019-07-22T20:59:00.713Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3408,8 +3421,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:07.136Z",
+        "publishedVersion": 56,
+        "publishedAt": "2019-07-22T20:59:00.713Z",
         "firstPublishedAt": "2019-05-22T22:55:36.738Z",
         "createdBy": {
           "sys": {
@@ -3425,8 +3438,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 28,
+        "version": 57,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3451,7 +3464,7 @@
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "1XMVzb84UIUiy8kwoE2egO"
+              "id": "fMA5AXMdcki6quQsKw0GU"
             }
           }
         },
@@ -3473,7 +3486,7 @@
         "id": "5RdDBY5HwWUAmWksmeK6YQ",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:27.822Z",
-        "updatedAt": "2019-07-22T20:07:06.773Z",
+        "updatedAt": "2019-07-22T20:36:19.676Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3481,8 +3494,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:06.773Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:19.676Z",
         "firstPublishedAt": "2019-05-22T22:55:37.257Z",
         "createdBy": {
           "sys": {
@@ -3498,8 +3511,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3541,7 +3554,7 @@
         "id": "JoGHMcQTEk6c8GkS2uSkk",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:27.823Z",
-        "updatedAt": "2019-07-22T20:07:06.361Z",
+        "updatedAt": "2019-07-22T20:36:19.237Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3549,8 +3562,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:06.361Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:19.237Z",
         "firstPublishedAt": "2019-05-22T22:55:36.341Z",
         "createdBy": {
           "sys": {
@@ -3566,8 +3579,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3628,7 +3641,7 @@
         "id": "zIgbysfxtIkiq8s8OiQms",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:27.881Z",
-        "updatedAt": "2019-07-22T20:07:05.835Z",
+        "updatedAt": "2019-07-22T20:36:18.816Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3636,8 +3649,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:05.835Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:18.816Z",
         "firstPublishedAt": "2019-05-22T22:55:35.832Z",
         "createdBy": {
           "sys": {
@@ -3653,8 +3666,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3713,7 +3726,7 @@
         "id": "7c6nkHIaFUU80goKaiiuEU",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:28.173Z",
-        "updatedAt": "2019-07-22T20:06:54.671Z",
+        "updatedAt": "2019-07-22T20:36:08.224Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3721,8 +3734,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:54.671Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:08.224Z",
         "firstPublishedAt": "2019-05-22T22:55:38.746Z",
         "createdBy": {
           "sys": {
@@ -3738,8 +3751,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3791,7 +3804,7 @@
         "id": "1RsjC5YP60yKqcqMmk4qIE",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:28.188Z",
-        "updatedAt": "2019-07-22T20:07:05.320Z",
+        "updatedAt": "2019-07-22T20:36:18.421Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3799,8 +3812,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:05.320Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:18.421Z",
         "firstPublishedAt": "2019-05-22T22:55:39.327Z",
         "createdBy": {
           "sys": {
@@ -3816,8 +3829,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3859,7 +3872,7 @@
         "id": "c5eyhTOvewkQaOWa8yI0E",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:28.196Z",
-        "updatedAt": "2019-07-22T20:07:04.926Z",
+        "updatedAt": "2019-07-22T20:36:18.019Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3867,8 +3880,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:04.926Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:18.018Z",
         "firstPublishedAt": "2019-05-22T22:55:39.838Z",
         "createdBy": {
           "sys": {
@@ -3884,8 +3897,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3932,7 +3945,7 @@
         "id": "35hDyPFaMwsKGcwcgqMCw0",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:28.199Z",
-        "updatedAt": "2019-07-22T20:07:04.515Z",
+        "updatedAt": "2019-07-22T20:36:17.623Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3940,8 +3953,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:04.515Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:17.623Z",
         "firstPublishedAt": "2019-05-22T22:55:38.219Z",
         "createdBy": {
           "sys": {
@@ -3957,8 +3970,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4017,7 +4030,7 @@
         "id": "7scjDlY728KAoqakk4oiSG",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:28.214Z",
-        "updatedAt": "2019-07-22T20:07:04.155Z",
+        "updatedAt": "2019-07-22T20:36:17.229Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4025,8 +4038,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:04.155Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:17.229Z",
         "firstPublishedAt": "2019-05-22T22:55:37.677Z",
         "createdBy": {
           "sys": {
@@ -4042,8 +4055,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4083,7 +4096,7 @@
         "id": "1DUp557yuIygq4asEuSKGm",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:28.461Z",
-        "updatedAt": "2019-07-22T20:07:03.690Z",
+        "updatedAt": "2019-07-22T20:36:16.605Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4091,8 +4104,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:03.690Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:16.605Z",
         "firstPublishedAt": "2019-05-22T22:55:40.338Z",
         "createdBy": {
           "sys": {
@@ -4108,8 +4121,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4155,7 +4168,7 @@
         "id": "6AaHFUTGvYogWMcku4aKmQ",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:28.580Z",
-        "updatedAt": "2019-07-22T20:07:03.275Z",
+        "updatedAt": "2019-07-22T20:36:16.190Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4163,8 +4176,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:03.275Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:16.190Z",
         "firstPublishedAt": "2019-05-22T22:55:41.361Z",
         "createdBy": {
           "sys": {
@@ -4180,8 +4193,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4223,7 +4236,7 @@
         "id": "3s6SsSV5hmYyWGsYaeK2EO",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:28.595Z",
-        "updatedAt": "2019-07-22T20:07:02.880Z",
+        "updatedAt": "2019-07-22T20:36:15.852Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4231,8 +4244,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:02.880Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:15.852Z",
         "firstPublishedAt": "2019-05-22T22:55:41.880Z",
         "createdBy": {
           "sys": {
@@ -4248,8 +4261,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4291,7 +4304,7 @@
         "id": "3n77Ckf41yGamCucAAEuak",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:28.597Z",
-        "updatedAt": "2019-07-22T20:07:02.509Z",
+        "updatedAt": "2019-07-22T20:36:15.454Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4299,8 +4312,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:02.509Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:15.454Z",
         "firstPublishedAt": "2019-05-22T22:55:42.306Z",
         "createdBy": {
           "sys": {
@@ -4316,8 +4329,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4360,7 +4373,7 @@
         "id": "4fWTdvi3awMaQomqE0KkW2",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:28.601Z",
-        "updatedAt": "2019-07-22T20:07:01.944Z",
+        "updatedAt": "2019-07-22T20:36:15.024Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4368,8 +4381,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:01.943Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:15.024Z",
         "firstPublishedAt": "2019-05-22T22:55:40.874Z",
         "createdBy": {
           "sys": {
@@ -4385,8 +4398,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4428,7 +4441,7 @@
         "id": "2wDeIBuu6gQIomKEqYYYKi",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:29.047Z",
-        "updatedAt": "2019-07-22T20:07:01.363Z",
+        "updatedAt": "2019-07-22T20:36:14.629Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4436,8 +4449,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:01.363Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:14.629Z",
         "firstPublishedAt": "2019-05-22T22:55:45.154Z",
         "createdBy": {
           "sys": {
@@ -4453,8 +4466,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4496,7 +4509,7 @@
         "id": "4Re82NiX60UW6aCIS2wsMM",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:29.498Z",
-        "updatedAt": "2019-07-22T20:07:00.754Z",
+        "updatedAt": "2019-07-22T20:36:14.219Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4504,8 +4517,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:07:00.754Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:14.219Z",
         "firstPublishedAt": "2019-05-22T22:55:45.590Z",
         "createdBy": {
           "sys": {
@@ -4521,8 +4534,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4563,7 +4576,7 @@
         "id": "4rVysIAaecGOgum0siCayA",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:29.832Z",
-        "updatedAt": "2019-07-22T20:06:59.913Z",
+        "updatedAt": "2019-07-22T20:36:13.758Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4571,8 +4584,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:59.913Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:13.758Z",
         "firstPublishedAt": "2019-05-22T22:55:45.970Z",
         "createdBy": {
           "sys": {
@@ -4588,8 +4601,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4630,7 +4643,7 @@
         "id": "5gRIEhaVsAwGC8Cisq8AU6",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:30.209Z",
-        "updatedAt": "2019-07-22T20:06:59.460Z",
+        "updatedAt": "2019-07-22T20:36:13.190Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4638,8 +4651,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:59.460Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:13.190Z",
         "firstPublishedAt": "2019-05-22T22:55:46.422Z",
         "createdBy": {
           "sys": {
@@ -4655,8 +4668,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4697,7 +4710,7 @@
         "id": "1NXX8rpg9CW2IweAa0Is0u",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:30.551Z",
-        "updatedAt": "2019-07-22T20:06:59.081Z",
+        "updatedAt": "2019-07-22T20:36:12.745Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4705,8 +4718,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:59.081Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:12.745Z",
         "firstPublishedAt": "2019-05-22T22:55:42.736Z",
         "createdBy": {
           "sys": {
@@ -4722,8 +4735,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4766,7 +4779,7 @@
         "id": "6ULJFK4jPGiIKq4O6aMWqE",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:30.588Z",
-        "updatedAt": "2019-07-22T20:06:58.676Z",
+        "updatedAt": "2019-07-22T20:36:12.380Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4774,8 +4787,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:58.676Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:12.380Z",
         "firstPublishedAt": "2019-05-22T22:55:46.818Z",
         "createdBy": {
           "sys": {
@@ -4791,8 +4804,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4833,7 +4846,7 @@
         "id": "3fUTfMaiUgSYEgiwiqyUYa",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:30.790Z",
-        "updatedAt": "2019-07-22T20:06:58.229Z",
+        "updatedAt": "2019-07-22T20:36:11.980Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4841,8 +4854,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:58.229Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:11.980Z",
         "firstPublishedAt": "2019-05-22T22:55:43.153Z",
         "createdBy": {
           "sys": {
@@ -4858,8 +4871,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4902,7 +4915,7 @@
         "id": "3fD7qPKfPWoO6MY8OmmkaY",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:30.798Z",
-        "updatedAt": "2019-07-22T20:06:57.837Z",
+        "updatedAt": "2019-07-22T20:36:11.576Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4910,8 +4923,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:57.837Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:11.576Z",
         "firstPublishedAt": "2019-05-22T22:55:43.627Z",
         "createdBy": {
           "sys": {
@@ -4927,8 +4940,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4962,7 +4975,7 @@
         "id": "2OvEzkxULKcwAIACyCkwOW",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:30.823Z",
-        "updatedAt": "2019-07-22T20:06:57.451Z",
+        "updatedAt": "2019-07-22T20:36:11.063Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4970,8 +4983,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:57.451Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:11.063Z",
         "firstPublishedAt": "2019-05-22T22:55:44.129Z",
         "createdBy": {
           "sys": {
@@ -4987,8 +5000,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5030,7 +5043,7 @@
         "id": "22GKqbOFv6oWmugiQsAmgY",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:30.844Z",
-        "updatedAt": "2019-07-22T20:06:57.046Z",
+        "updatedAt": "2019-07-22T20:36:10.646Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5038,8 +5051,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:57.046Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:10.646Z",
         "firstPublishedAt": "2019-05-22T22:55:44.720Z",
         "createdBy": {
           "sys": {
@@ -5055,8 +5068,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5098,7 +5111,7 @@
         "id": "2ZDLva4Hq0Ioguqq4SgeqW",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:30.908Z",
-        "updatedAt": "2019-07-22T20:06:56.615Z",
+        "updatedAt": "2019-07-22T20:36:09.938Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5106,8 +5119,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:56.615Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:09.938Z",
         "firstPublishedAt": "2019-05-22T22:55:47.296Z",
         "createdBy": {
           "sys": {
@@ -5123,8 +5136,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5171,7 +5184,7 @@
         "id": "5Til8wmpC8yaAgk0ciEmOe",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:30.941Z",
-        "updatedAt": "2019-07-22T20:06:56.158Z",
+        "updatedAt": "2019-07-22T20:36:09.423Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5179,8 +5192,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:56.158Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:09.423Z",
         "firstPublishedAt": "2019-05-22T22:55:47.723Z",
         "createdBy": {
           "sys": {
@@ -5196,8 +5209,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5244,7 +5257,7 @@
         "id": "idz6NudVcsyYk08yY2OwK",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:31.225Z",
-        "updatedAt": "2019-07-22T20:06:55.591Z",
+        "updatedAt": "2019-07-22T20:36:08.990Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5252,8 +5265,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:55.591Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:08.990Z",
         "firstPublishedAt": "2019-05-22T22:55:48.150Z",
         "createdBy": {
           "sys": {
@@ -5269,8 +5282,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5317,7 +5330,7 @@
         "id": "33tkP252KAmcyok8q8aOEm",
         "type": "Entry",
         "createdAt": "2019-05-22T22:55:31.231Z",
-        "updatedAt": "2019-07-22T20:06:55.199Z",
+        "updatedAt": "2019-07-22T20:36:08.630Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5325,8 +5338,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 51,
-        "publishedAt": "2019-07-22T20:06:55.199Z",
+        "publishedVersion": 53,
+        "publishedAt": "2019-07-22T20:36:08.630Z",
         "firstPublishedAt": "2019-05-22T22:55:48.646Z",
         "createdBy": {
           "sys": {
@@ -5342,8 +5355,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 52,
+        "publishedCounter": 27,
+        "version": 54,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5447,7 +5460,7 @@
         "id": "5vRU6ipxCgYSOKwySM22co",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:40.685Z",
-        "updatedAt": "2019-07-22T20:03:59.560Z",
+        "updatedAt": "2019-07-22T20:34:37.592Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5473,7 +5486,7 @@
           }
         },
         "publishedCounter": 25,
-        "version": 76,
+        "version": 78,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5507,7 +5520,7 @@
         "id": "4QiopTrXSg8SYgASkyaQiw",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:40.691Z",
-        "updatedAt": "2019-07-22T20:03:57.824Z",
+        "updatedAt": "2019-07-22T20:34:35.796Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5533,7 +5546,7 @@
           }
         },
         "publishedCounter": 25,
-        "version": 76,
+        "version": 78,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5567,7 +5580,7 @@
         "id": "cDgfiW0Je8OGG6OIiiCIm",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:40.702Z",
-        "updatedAt": "2019-07-22T20:03:59.512Z",
+        "updatedAt": "2019-07-22T20:34:37.442Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5593,7 +5606,7 @@
           }
         },
         "publishedCounter": 25,
-        "version": 76,
+        "version": 78,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5627,7 +5640,7 @@
         "id": "2M81ePzqEgW66W0UCA0YCS",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:40.703Z",
-        "updatedAt": "2019-07-22T20:03:59.624Z",
+        "updatedAt": "2019-07-22T20:34:37.485Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5653,7 +5666,7 @@
           }
         },
         "publishedCounter": 25,
-        "version": 76,
+        "version": 78,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5687,7 +5700,7 @@
         "id": "3ZCPzRBzX26KCsGwOW2YGC",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:40.711Z",
-        "updatedAt": "2019-07-22T20:06:41.025Z",
+        "updatedAt": "2019-07-22T20:35:48.269Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5695,8 +5708,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 77,
-        "publishedAt": "2019-07-22T20:06:41.025Z",
+        "publishedVersion": 80,
+        "publishedAt": "2019-07-22T20:35:48.269Z",
         "firstPublishedAt": "2019-05-22T22:55:22.934Z",
         "createdBy": {
           "sys": {
@@ -5712,8 +5725,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 78,
+        "publishedCounter": 27,
+        "version": 81,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5728,7 +5741,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/qc5se7hsn5aq/3ZCPzRBzX26KCsGwOW2YGC/28eb0b8170462ab652222a7f49555bb7/Beach_4.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/3ZCPzRBzX26KCsGwOW2YGC/54bd68c2df5c258626a38e32514b13d9/Beach_4.jpg",
             "details": {
               "size": 2879417,
               "image": {
@@ -5754,7 +5767,7 @@
         "id": "2u0vYURE4cWyUm00k44ye4",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:41.066Z",
-        "updatedAt": "2019-07-22T20:03:59.519Z",
+        "updatedAt": "2019-07-22T20:35:58.471Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5762,8 +5775,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:25.224Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:58.471Z",
         "firstPublishedAt": "2019-05-22T22:55:10.655Z",
         "createdBy": {
           "sys": {
@@ -5779,8 +5792,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5795,7 +5808,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/2u0vYURE4cWyUm00k44ye4/0a9c6af3f1ca1e3f45cf87517e072760/homescreen_hero_e3_kebab_desktop_1170_328646.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/2u0vYURE4cWyUm00k44ye4/f704432381847082ebf7a8ab3c4899be/homescreen_hero_e3_kebab_desktop_1170_328646.jpg",
+            "details": {
+              "size": 190695,
+              "image": {
+                "width": 1170,
+                "height": 745
+              }
+            },
             "fileName": "homescreen_hero_e3_kebab_desktop_1170_328646.jpg",
             "contentType": "image/jpeg"
           }
@@ -5814,7 +5834,7 @@
         "id": "4ClyFr0XGwcOiKUMyyiMKO",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:41.067Z",
-        "updatedAt": "2019-07-22T20:04:03.785Z",
+        "updatedAt": "2019-07-22T20:35:57.997Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5822,8 +5842,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:24.863Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:57.997Z",
         "firstPublishedAt": "2019-05-22T22:55:11.070Z",
         "createdBy": {
           "sys": {
@@ -5839,8 +5859,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5858,7 +5878,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/4ClyFr0XGwcOiKUMyyiMKO/de6c50c8e624bfa0e1dcfd3dae56c1ad/TWD_Test_Image6.png",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/4ClyFr0XGwcOiKUMyyiMKO/4b675828e7c100c08fd165375f362242/TWD_Test_Image6.png",
+            "details": {
+              "size": 515162,
+              "image": {
+                "width": 1920,
+                "height": 1080
+              }
+            },
             "fileName": "TWD Test Image6.png",
             "contentType": "image/png"
           }
@@ -5877,7 +5904,7 @@
         "id": "2vv69fAkr6wGCQwYQAekKG",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:41.078Z",
-        "updatedAt": "2019-07-22T20:04:03.480Z",
+        "updatedAt": "2019-07-22T20:35:57.731Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5885,8 +5912,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:24.221Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:57.731Z",
         "firstPublishedAt": "2019-05-22T22:55:11.481Z",
         "createdBy": {
           "sys": {
@@ -5902,8 +5929,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5918,7 +5945,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/2vv69fAkr6wGCQwYQAekKG/bb4ec04a863b386dca697c121d9f9f6a/Malediven_Wasserbungalow_28800500816.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/2vv69fAkr6wGCQwYQAekKG/a7f690f9ea2d034b5e0c2a288519f515/Malediven_Wasserbungalow_28800500816.jpg",
+            "details": {
+              "size": 6764509,
+              "image": {
+                "width": 3992,
+                "height": 2242
+              }
+            },
             "fileName": "Malediven_Wasserbungalow_28800500816.jpg",
             "contentType": "image/jpeg"
           }
@@ -5937,7 +5971,7 @@
         "id": "5wbvZUuurYyc8OMS4gcsOg",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:41.080Z",
-        "updatedAt": "2019-07-22T20:04:01.770Z",
+        "updatedAt": "2019-07-22T20:35:57.321Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5945,8 +5979,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:23.686Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:57.321Z",
         "firstPublishedAt": "2019-05-22T22:55:12.287Z",
         "createdBy": {
           "sys": {
@@ -5962,8 +5996,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5979,7 +6013,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/5wbvZUuurYyc8OMS4gcsOg/481555c8a28f65d794e2a9600577ef95/tropical-wallpaper-bar-beach-beaches-wallpapers.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/5wbvZUuurYyc8OMS4gcsOg/f9647869b347ee546093edbdae6848d1/tropical-wallpaper-bar-beach-beaches-wallpapers.jpg",
+            "details": {
+              "size": 159913,
+              "image": {
+                "width": 1280,
+                "height": 720
+              }
+            },
             "fileName": "tropical-wallpaper-bar-beach-beaches-wallpapers.jpg",
             "contentType": "image/jpeg"
           }
@@ -5998,7 +6039,7 @@
         "id": "3LUCLp5OT6i4wSge86gqYC",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:41.081Z",
-        "updatedAt": "2019-07-22T20:04:01.602Z",
+        "updatedAt": "2019-07-22T20:35:57.011Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6006,8 +6047,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:23.326Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:57.011Z",
         "firstPublishedAt": "2019-05-22T22:55:11.849Z",
         "createdBy": {
           "sys": {
@@ -6023,8 +6064,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6040,7 +6081,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/3LUCLp5OT6i4wSge86gqYC/7be9150c8915339ded695e4056dcfa92/oceankiss-restaurant-anatara-lawana-koh-samui__1_.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/3LUCLp5OT6i4wSge86gqYC/20941f751a80fc4ef1816d1845325057/oceankiss-restaurant-anatara-lawana-koh-samui__1_.jpg",
+            "details": {
+              "size": 165126,
+              "image": {
+                "width": 1800,
+                "height": 958
+              }
+            },
             "fileName": "oceankiss-restaurant-anatara-lawana-koh-samui (1).jpg",
             "contentType": "image/jpeg"
           }
@@ -6059,7 +6107,7 @@
         "id": "H7mGyDuikwMoKUweocKiu",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:41.417Z",
-        "updatedAt": "2019-07-22T20:04:01.514Z",
+        "updatedAt": "2019-07-22T20:35:56.597Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6067,8 +6115,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:22.897Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:56.597Z",
         "firstPublishedAt": "2019-05-22T22:55:12.693Z",
         "createdBy": {
           "sys": {
@@ -6084,8 +6132,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6101,7 +6149,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/H7mGyDuikwMoKUweocKiu/5e6ab9e90d2271cda2bea5cd2b13e2f0/wallpaper.wiki-Beach-House-Wallpaper-HD-PIC-WPB0015512.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/H7mGyDuikwMoKUweocKiu/672bddde5846321992e5071a54b96436/wallpaper.wiki-Beach-House-Wallpaper-HD-PIC-WPB0015512.jpg",
+            "details": {
+              "size": 657774,
+              "image": {
+                "width": 2560,
+                "height": 1600
+              }
+            },
             "fileName": "wallpaper.wiki-Beach-House-Wallpaper-HD-PIC-WPB0015512.jpg",
             "contentType": "image/jpeg"
           }
@@ -6120,7 +6175,7 @@
         "id": "1XMVzb84UIUiy8kwoE2egO",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:41.421Z",
-        "updatedAt": "2019-07-22T20:04:01.337Z",
+        "updatedAt": "2019-07-22T20:35:56.157Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6128,8 +6183,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:22.421Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:56.157Z",
         "firstPublishedAt": "2019-05-22T22:55:13.100Z",
         "createdBy": {
           "sys": {
@@ -6145,8 +6200,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6164,7 +6219,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/1XMVzb84UIUiy8kwoE2egO/32ce94af71460013cfa40533e03b9e33/IMG_3459-wider-1024x575.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/1XMVzb84UIUiy8kwoE2egO/b6db8eb12512ab203d6ace8380f88b23/IMG_3459-wider-1024x575.jpg",
+            "details": {
+              "size": 185795,
+              "image": {
+                "width": 1024,
+                "height": 575
+              }
+            },
             "fileName": "IMG_3459-wider-1024x575.jpg",
             "contentType": "image/jpeg"
           }
@@ -6183,7 +6245,7 @@
         "id": "5VRTfmuRe8wcW06UsaM0aI",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:41.432Z",
-        "updatedAt": "2019-07-22T20:06:44.123Z",
+        "updatedAt": "2019-07-22T20:35:55.774Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6191,8 +6253,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 77,
-        "publishedAt": "2019-07-22T20:06:44.123Z",
+        "publishedVersion": 80,
+        "publishedAt": "2019-07-22T20:35:55.774Z",
         "firstPublishedAt": "2019-05-22T22:55:13.512Z",
         "createdBy": {
           "sys": {
@@ -6208,8 +6270,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 78,
+        "publishedCounter": 27,
+        "version": 81,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6224,7 +6286,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/qc5se7hsn5aq/5VRTfmuRe8wcW06UsaM0aI/b6c6a803eada1d06255732dc9f244c46/Malediven_Wasserbungalow_28800500816.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/5VRTfmuRe8wcW06UsaM0aI/9775e61284343c0da5cc1c92b52d9aa0/Malediven_Wasserbungalow_28800500816.jpg",
             "details": {
               "size": 6764509,
               "image": {
@@ -6250,7 +6312,7 @@
         "id": "wGuz1YvXheoiI4GYuCa4m",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:41.450Z",
-        "updatedAt": "2019-07-22T20:06:43.819Z",
+        "updatedAt": "2019-07-22T20:35:55.494Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6258,8 +6320,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 77,
-        "publishedAt": "2019-07-22T20:06:43.819Z",
+        "publishedVersion": 80,
+        "publishedAt": "2019-07-22T20:35:55.494Z",
         "firstPublishedAt": "2019-05-22T22:55:14.022Z",
         "createdBy": {
           "sys": {
@@ -6275,8 +6337,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 78,
+        "publishedCounter": 27,
+        "version": 81,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6291,7 +6353,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/qc5se7hsn5aq/wGuz1YvXheoiI4GYuCa4m/f8aec8d6f6beed80768b965ee8ad9bfd/TWD_Hotels_Logo.png",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/wGuz1YvXheoiI4GYuCa4m/fe2de160c04f38116f124a6f1dcca9e2/TWD_Hotels_Logo.png",
             "details": {
               "size": 14652,
               "image": {
@@ -6317,7 +6379,7 @@
         "id": "BWmwheztrqs4eeKaQI4ec",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:41.453Z",
-        "updatedAt": "2019-07-22T20:04:00.948Z",
+        "updatedAt": "2019-07-22T20:35:55.146Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6325,8 +6387,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:21.453Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:55.146Z",
         "firstPublishedAt": "2019-05-22T22:55:14.595Z",
         "createdBy": {
           "sys": {
@@ -6342,8 +6404,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6358,7 +6420,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/BWmwheztrqs4eeKaQI4ec/6f9c36251fa5785165752cd4a32711cb/honeymoonsuite.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/BWmwheztrqs4eeKaQI4ec/f3c7d65700f2d5c3357de8c57acb5bbe/honeymoonsuite.jpg",
+            "details": {
+              "size": 100273,
+              "image": {
+                "width": 1000,
+                "height": 664
+              }
+            },
             "fileName": "honeymoonsuite.jpg",
             "contentType": "image/jpeg"
           }
@@ -6377,7 +6446,7 @@
         "id": "aOaH330n0OeG4A4AUKo6o",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:42.694Z",
-        "updatedAt": "2019-07-22T20:06:43.515Z",
+        "updatedAt": "2019-07-22T20:35:54.867Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6385,8 +6454,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 77,
-        "publishedAt": "2019-07-22T20:06:43.515Z",
+        "publishedVersion": 80,
+        "publishedAt": "2019-07-22T20:35:54.867Z",
         "firstPublishedAt": "2019-05-22T22:55:24.774Z",
         "createdBy": {
           "sys": {
@@ -6402,8 +6471,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 78,
+        "publishedCounter": 27,
+        "version": 81,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6418,7 +6487,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/qc5se7hsn5aq/aOaH330n0OeG4A4AUKo6o/1ce0bd7d90efcb2e072df7f2e16218b9/Beach_1.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/aOaH330n0OeG4A4AUKo6o/78c5542b0fbcd2525ed228f64480eb5e/Beach_1.jpg",
             "details": {
               "size": 208548,
               "image": {
@@ -6444,7 +6513,7 @@
         "id": "4FWjXLc6VyKq6gmcYiGwcO",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:43.043Z",
-        "updatedAt": "2019-07-22T20:06:43.151Z",
+        "updatedAt": "2019-07-22T20:35:54.483Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6452,8 +6521,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 77,
-        "publishedAt": "2019-07-22T20:06:43.151Z",
+        "publishedVersion": 80,
+        "publishedAt": "2019-07-22T20:35:54.483Z",
         "firstPublishedAt": "2019-05-22T22:55:17.445Z",
         "createdBy": {
           "sys": {
@@ -6469,8 +6538,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 78,
+        "publishedCounter": 27,
+        "version": 81,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6485,7 +6554,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/qc5se7hsn5aq/4FWjXLc6VyKq6gmcYiGwcO/fde3c75db23ed2a7fbc6fe72499c9b38/MAU_1568_3060x1722.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/4FWjXLc6VyKq6gmcYiGwcO/18c47ef06ff210a5ab8f6469835a3f7b/MAU_1568_3060x1722.jpg",
             "details": {
               "size": 314092,
               "image": {
@@ -6511,7 +6580,7 @@
         "id": "5gJQ8TfUO4SmyMKQkowGGU",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:43.521Z",
-        "updatedAt": "2019-07-22T20:06:42.893Z",
+        "updatedAt": "2019-07-22T20:35:54.153Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6519,8 +6588,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 77,
-        "publishedAt": "2019-07-22T20:06:42.893Z",
+        "publishedVersion": 80,
+        "publishedAt": "2019-07-22T20:35:54.153Z",
         "firstPublishedAt": "2019-05-22T22:55:17.864Z",
         "createdBy": {
           "sys": {
@@ -6536,8 +6605,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 78,
+        "publishedCounter": 27,
+        "version": 81,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6552,7 +6621,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/qc5se7hsn5aq/5gJQ8TfUO4SmyMKQkowGGU/fbf859ff76276db5fcac05a5f72deb45/6a0128763ee05d970c01b7c73c192d970b",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/5gJQ8TfUO4SmyMKQkowGGU/c102eb1bf153796e90974cc693186a94/6a0128763ee05d970c01b7c73c192d970b",
             "details": {
               "size": 4826199,
               "image": {
@@ -6578,7 +6647,7 @@
         "id": "VQSGNTFTwqyoYsQg00mKk",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:43.704Z",
-        "updatedAt": "2019-07-22T20:06:42.545Z",
+        "updatedAt": "2019-07-22T20:35:53.855Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6586,8 +6655,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 77,
-        "publishedAt": "2019-07-22T20:06:42.545Z",
+        "publishedVersion": 80,
+        "publishedAt": "2019-07-22T20:35:53.855Z",
         "firstPublishedAt": "2019-05-22T22:55:15.011Z",
         "createdBy": {
           "sys": {
@@ -6603,8 +6672,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 78,
+        "publishedCounter": 27,
+        "version": 81,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6619,7 +6688,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/qc5se7hsn5aq/VQSGNTFTwqyoYsQg00mKk/e80c5348967c412870bfbde585636c2f/CTFL_Hotels_Logo.png",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/VQSGNTFTwqyoYsQg00mKk/708e9cf6b715fb977ad3caa7cb8b90fc/CTFL_Hotels_Logo.png",
             "details": {
               "size": 13398,
               "image": {
@@ -6645,7 +6714,7 @@
         "id": "fMA5AXMdcki6quQsKw0GU",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:43.746Z",
-        "updatedAt": "2019-07-22T20:06:42.246Z",
+        "updatedAt": "2019-07-22T20:35:53.453Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6653,8 +6722,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 77,
-        "publishedAt": "2019-07-22T20:06:42.246Z",
+        "publishedVersion": 80,
+        "publishedAt": "2019-07-22T20:35:53.453Z",
         "firstPublishedAt": "2019-05-22T22:55:15.402Z",
         "createdBy": {
           "sys": {
@@ -6670,8 +6739,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 78,
+        "publishedCounter": 27,
+        "version": 81,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6686,7 +6755,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/qc5se7hsn5aq/fMA5AXMdcki6quQsKw0GU/f3a2d5729d3945346502289ac80175d4/04690fe8f63117de444a1ce1f30b7305.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/fMA5AXMdcki6quQsKw0GU/840bcc1b7441c71bfa595f1ab5169a77/04690fe8f63117de444a1ce1f30b7305.jpg",
             "details": {
               "size": 110197,
               "image": {
@@ -6712,7 +6781,7 @@
         "id": "1me2bM2txaosSqumea6u2K",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:43.767Z",
-        "updatedAt": "2019-07-22T20:06:41.975Z",
+        "updatedAt": "2019-07-22T20:34:38.576Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6738,7 +6807,7 @@
           }
         },
         "publishedCounter": 26,
-        "version": 78,
+        "version": 79,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6753,14 +6822,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/qc5se7hsn5aq/1me2bM2txaosSqumea6u2K/efb6de8d81e3105fffa3a66267ec67f7/TBDHotelGroup_Logo_Transparent.png",
-            "details": {
-              "size": 15300,
-              "image": {
-                "width": 182,
-                "height": 193
-              }
-            },
+            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/1me2bM2txaosSqumea6u2K/3e104bbba8aa9f116937909628df6228/TBDHotelGroup_Logo_Transparent.png",
             "fileName": "TBDHotelGroup_Logo_Transparent.png",
             "contentType": "image/png"
           }
@@ -6779,7 +6841,7 @@
         "id": "7dfQ0QJuusiYAOgmSYIssW",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:43.855Z",
-        "updatedAt": "2019-07-22T20:04:01.593Z",
+        "updatedAt": "2019-07-22T20:35:53.064Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6787,8 +6849,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:18.369Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:53.064Z",
         "firstPublishedAt": "2019-05-22T22:55:16.517Z",
         "createdBy": {
           "sys": {
@@ -6804,8 +6866,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6820,7 +6882,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/7dfQ0QJuusiYAOgmSYIssW/fc4a504269469153f56af26403242f08/1.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/7dfQ0QJuusiYAOgmSYIssW/08e670a8cdf4015eecf0d6a21565cc83/1.jpg",
+            "details": {
+              "size": 236895,
+              "image": {
+                "width": 1033,
+                "height": 672
+              }
+            },
             "fileName": "1.jpg",
             "contentType": "image/jpeg"
           }
@@ -6839,7 +6908,7 @@
         "id": "6109VUp8ZiIM0wYW0GAEMI",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:43.861Z",
-        "updatedAt": "2019-07-22T20:04:01.557Z",
+        "updatedAt": "2019-07-22T20:34:38.447Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6865,7 +6934,7 @@
           }
         },
         "publishedCounter": 25,
-        "version": 76,
+        "version": 78,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6899,7 +6968,7 @@
         "id": "qIywr2XsqssAYQ4IMuMMo",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:43.876Z",
-        "updatedAt": "2019-07-22T20:03:59.855Z",
+        "updatedAt": "2019-07-22T20:35:52.517Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6907,8 +6976,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:17.688Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:52.517Z",
         "firstPublishedAt": "2019-05-22T22:55:16.081Z",
         "createdBy": {
           "sys": {
@@ -6924,8 +6993,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6940,7 +7009,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/qIywr2XsqssAYQ4IMuMMo/642fb52a0a4f35780eb2acad71cabec6/The-Cove-Atlantis.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/qIywr2XsqssAYQ4IMuMMo/8ad76c9259bfbf19074dc3031e0bdf7c/The-Cove-Atlantis.jpg",
+            "details": {
+              "size": 146387,
+              "image": {
+                "width": 819,
+                "height": 579
+              }
+            },
             "fileName": "The-Cove-Atlantis.jpg",
             "contentType": "image/jpeg"
           }
@@ -6959,7 +7035,7 @@
         "id": "279Lhm593ickg2YsWWWMio",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:44.050Z",
-        "updatedAt": "2019-07-22T20:04:01.724Z",
+        "updatedAt": "2019-07-22T20:35:52.110Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6967,8 +7043,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:17.320Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:52.110Z",
         "firstPublishedAt": "2019-05-22T22:55:18.733Z",
         "createdBy": {
           "sys": {
@@ -6984,8 +7060,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7000,7 +7076,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/279Lhm593ickg2YsWWWMio/c3c3315599a7d9d27f28758008a74d3f/MAU_1560_original.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/279Lhm593ickg2YsWWWMio/beff4ea61764bf9ee7121269c1998314/MAU_1560_original.jpg",
+            "details": {
+              "size": 273089,
+              "image": {
+                "width": 1860,
+                "height": 1047
+              }
+            },
             "fileName": "MAU_1560_original.jpg",
             "contentType": "image/jpeg"
           }
@@ -7019,7 +7102,7 @@
         "id": "1G80SPiwOsMg2wg8gwicG4",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:44.107Z",
-        "updatedAt": "2019-07-22T20:03:59.801Z",
+        "updatedAt": "2019-07-22T20:35:51.728Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7027,8 +7110,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:17.027Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:51.728Z",
         "firstPublishedAt": "2019-05-22T22:55:19.245Z",
         "createdBy": {
           "sys": {
@@ -7044,8 +7127,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7063,7 +7146,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/1G80SPiwOsMg2wg8gwicG4/94afdee2cf35f9097035ec013a99a085/CovePool_img2.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/1G80SPiwOsMg2wg8gwicG4/5e0bfefa56aa7fe22370cc8dc2dff169/CovePool_img2.jpg",
+            "details": {
+              "size": 305788,
+              "image": {
+                "width": 1050,
+                "height": 711
+              }
+            },
             "fileName": "CovePool_img2.jpg",
             "contentType": "image/jpeg"
           }
@@ -7082,7 +7172,7 @@
         "id": "5bZH3PIFKEUa8wuAaASecM",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:44.108Z",
-        "updatedAt": "2019-07-22T20:03:59.623Z",
+        "updatedAt": "2019-07-22T20:35:51.287Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7090,8 +7180,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:16.703Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:51.287Z",
         "firstPublishedAt": "2019-05-22T22:55:19.697Z",
         "createdBy": {
           "sys": {
@@ -7107,8 +7197,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7126,7 +7216,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/5bZH3PIFKEUa8wuAaASecM/734f2147f4e0bd7277de223de4be3b7d/dorado-beach-golf.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/5bZH3PIFKEUa8wuAaASecM/54b05d9df0e264de1fb263772e90f3f0/dorado-beach-golf.jpg",
+            "details": {
+              "size": 217959,
+              "image": {
+                "width": 1205,
+                "height": 830
+              }
+            },
             "fileName": "dorado-beach-golf.jpg",
             "contentType": "image/jpeg"
           }
@@ -7145,7 +7242,7 @@
         "id": "1USVkmsBGkEMAYaoyUcEKg",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:44.204Z",
-        "updatedAt": "2019-07-22T20:03:59.579Z",
+        "updatedAt": "2019-07-22T20:35:50.975Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7153,8 +7250,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:16.294Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:50.975Z",
         "firstPublishedAt": "2019-05-22T22:55:20.168Z",
         "createdBy": {
           "sys": {
@@ -7170,8 +7267,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7189,7 +7286,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/1USVkmsBGkEMAYaoyUcEKg/a6b8748a906a166f9af2fd4f4e3ef45e/it_is_time_to_go_to_the_spa.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/1USVkmsBGkEMAYaoyUcEKg/47ea57a48a0c70b66490e4f3b5c38393/it_is_time_to_go_to_the_spa.jpg",
+            "details": {
+              "size": 90415,
+              "image": {
+                "width": 795,
+                "height": 533
+              }
+            },
             "fileName": "it_is_time_to_go_to_the_spa.jpg",
             "contentType": "image/jpeg"
           }
@@ -7208,7 +7312,7 @@
         "id": "5BPCRPTyViOksuwcYCM24A",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:44.206Z",
-        "updatedAt": "2019-07-22T20:03:59.253Z",
+        "updatedAt": "2019-07-22T20:35:50.656Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7216,8 +7320,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:15.950Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:50.656Z",
         "firstPublishedAt": "2019-05-22T22:55:20.569Z",
         "createdBy": {
           "sys": {
@@ -7233,8 +7337,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7249,7 +7353,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/5BPCRPTyViOksuwcYCM24A/5bddfbab7408b0617bf4694d00ecb55f/Mountains_4.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/5BPCRPTyViOksuwcYCM24A/fbfc47ff17d4bc3bc7121e5d68145f54/Mountains_4.jpg",
+            "details": {
+              "size": 854386,
+              "image": {
+                "width": 1920,
+                "height": 1200
+              }
+            },
             "fileName": "Mountains 4.jpg",
             "contentType": "image/jpeg"
           }
@@ -7268,7 +7379,7 @@
         "id": "8r2PiaRrXO6IsmuOamO6y",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:44.224Z",
-        "updatedAt": "2019-07-22T20:03:59.342Z",
+        "updatedAt": "2019-07-22T20:35:50.367Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7276,8 +7387,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:15.368Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:50.367Z",
         "firstPublishedAt": "2019-05-22T22:55:21.084Z",
         "createdBy": {
           "sys": {
@@ -7293,8 +7404,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7309,7 +7420,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/8r2PiaRrXO6IsmuOamO6y/4743802448b5d689e92e38938f51414e/Mountains_2.png",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/8r2PiaRrXO6IsmuOamO6y/f99c35d68387b533970d86b1bb81c154/Mountains_2.png",
+            "details": {
+              "size": 1026442,
+              "image": {
+                "width": 1920,
+                "height": 1080
+              }
+            },
             "fileName": "Mountains 2.png",
             "contentType": "image/png"
           }
@@ -7328,7 +7446,7 @@
         "id": "SETWiwjfsiOwyasOQaE8y",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:44.385Z",
-        "updatedAt": "2019-07-22T20:06:41.683Z",
+        "updatedAt": "2019-07-22T20:35:50.013Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7336,8 +7454,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 77,
-        "publishedAt": "2019-07-22T20:06:41.683Z",
+        "publishedVersion": 80,
+        "publishedAt": "2019-07-22T20:35:50.013Z",
         "firstPublishedAt": "2019-05-22T22:55:21.587Z",
         "createdBy": {
           "sys": {
@@ -7353,8 +7471,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 78,
+        "publishedCounter": 27,
+        "version": 81,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7369,7 +7487,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/qc5se7hsn5aq/SETWiwjfsiOwyasOQaE8y/f061f145c71620f048b316392d74c8ca/Paris.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/SETWiwjfsiOwyasOQaE8y/d1ac6e9e227aa23b887eb6c468c13c03/Paris.jpg",
             "details": {
               "size": 298343,
               "image": {
@@ -7395,7 +7513,7 @@
         "id": "L8kxgZg32CKI0cgoUc8AA",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:44.484Z",
-        "updatedAt": "2019-07-22T20:06:41.358Z",
+        "updatedAt": "2019-07-22T20:35:49.745Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7403,8 +7521,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 77,
-        "publishedAt": "2019-07-22T20:06:41.358Z",
+        "publishedVersion": 80,
+        "publishedAt": "2019-07-22T20:35:49.745Z",
         "firstPublishedAt": "2019-05-22T22:55:22.014Z",
         "createdBy": {
           "sys": {
@@ -7420,8 +7538,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 26,
-        "version": 78,
+        "publishedCounter": 27,
+        "version": 81,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7436,7 +7554,7 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/qc5se7hsn5aq/L8kxgZg32CKI0cgoUc8AA/cf0a3f57c05aedee96b3c99ee0f6d81e/Mountains_3.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/L8kxgZg32CKI0cgoUc8AA/6ccee2272c83852a019b8d0933909df8/Mountains_3.jpg",
             "details": {
               "size": 202660,
               "image": {
@@ -7462,7 +7580,7 @@
         "id": "7BgOStW1Xi2OGcsKi0smyg",
         "type": "Asset",
         "createdAt": "2019-05-22T22:54:44.487Z",
-        "updatedAt": "2019-07-22T20:03:58.771Z",
+        "updatedAt": "2019-07-22T20:35:49.435Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7470,8 +7588,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 74,
-        "publishedAt": "2019-07-19T18:58:13.361Z",
+        "publishedVersion": 79,
+        "publishedAt": "2019-07-22T20:35:49.435Z",
         "firstPublishedAt": "2019-05-22T22:55:22.485Z",
         "createdBy": {
           "sys": {
@@ -7487,8 +7605,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 25,
-        "version": 76,
+        "publishedCounter": 26,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7503,7 +7621,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/7BgOStW1Xi2OGcsKi0smyg/30fd3273761b70a19bb459595444c3df/Beach_3.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/7BgOStW1Xi2OGcsKi0smyg/5a08dcc7a5b3ccb765e525f1060b93ae/Beach_3.jpg",
+            "details": {
+              "size": 188020,
+              "image": {
+                "width": 1200,
+                "height": 800
+              }
+            },
             "fileName": "Beach 3.jpg",
             "contentType": "image/jpeg"
           }
@@ -7522,7 +7647,7 @@
         "id": "7FlqWK5kxFppN1L9IYXN2F",
         "type": "Asset",
         "createdAt": "2019-06-15T21:27:45.266Z",
-        "updatedAt": "2019-07-22T20:03:58.450Z",
+        "updatedAt": "2019-07-22T20:34:37.803Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7548,7 +7673,7 @@
           }
         },
         "publishedCounter": 12,
-        "version": 41,
+        "version": 42,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7582,7 +7707,7 @@
         "id": "2Lm7uJpH3dVg7AwckOJqtE",
         "type": "Asset",
         "createdAt": "2019-07-10T20:13:33.682Z",
-        "updatedAt": "2019-07-22T20:03:58.459Z",
+        "updatedAt": "2019-07-22T20:34:37.767Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7608,7 +7733,7 @@
           }
         },
         "publishedCounter": 14,
-        "version": 43,
+        "version": 44,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7645,7 +7770,7 @@
         "id": "5dim7nqHkCq9g6cfmre9w7",
         "type": "Asset",
         "createdAt": "2019-07-11T18:30:12.697Z",
-        "updatedAt": "2019-07-22T20:03:58.151Z",
+        "updatedAt": "2019-07-22T20:35:48.999Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7653,8 +7778,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 39,
-        "publishedAt": "2019-07-19T18:58:11.769Z",
+        "publishedVersion": 44,
+        "publishedAt": "2019-07-22T20:35:48.999Z",
         "firstPublishedAt": "2019-07-11T18:31:00.737Z",
         "createdBy": {
           "sys": {
@@ -7670,8 +7795,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 12,
-        "version": 41,
+        "publishedCounter": 13,
+        "version": 45,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7686,7 +7811,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/5dim7nqHkCq9g6cfmre9w7/3151bb5cea688bf56198c94494931ba2/cancun-1-2.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/5dim7nqHkCq9g6cfmre9w7/1740ae020a301152de9454b7ce0bf764/cancun-1-2.jpg",
+            "details": {
+              "size": 1712574,
+              "image": {
+                "width": 4032,
+                "height": 3024
+              }
+            },
             "fileName": "cancun-1-2.jpg",
             "contentType": "image/jpeg"
           }
@@ -7705,7 +7837,7 @@
         "id": "61btKunptzvPBq6muVxb02",
         "type": "Asset",
         "createdAt": "2019-07-11T19:04:13.374Z",
-        "updatedAt": "2019-07-22T20:03:58.166Z",
+        "updatedAt": "2019-07-22T20:35:48.739Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7713,8 +7845,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 32,
-        "publishedAt": "2019-07-19T18:58:11.327Z",
+        "publishedVersion": 37,
+        "publishedAt": "2019-07-22T20:35:48.739Z",
         "firstPublishedAt": "2019-07-11T19:04:42.509Z",
         "createdBy": {
           "sys": {
@@ -7730,8 +7862,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 11,
-        "version": 34,
+        "publishedCounter": 12,
+        "version": 38,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7746,7 +7878,14 @@
         },
         "file": {
           "en-US": {
-            "upload": "https://images.ctfassets.net/qc5se7hsn5aq/61btKunptzvPBq6muVxb02/505439d0924bfb837fb3256ac22f7556/cancun-1-2.jpg",
+            "url": "//images.ctfassets.net/qc5se7hsn5aq/61btKunptzvPBq6muVxb02/b1511d35359f3dd7f06660165e8035d9/cancun-1-2.jpg",
+            "details": {
+              "size": 1712574,
+              "image": {
+                "width": 4032,
+                "height": 3024
+              }
+            },
             "fileName": "cancun-1-2.jpg",
             "contentType": "image/jpeg"
           }
