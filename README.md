@@ -25,7 +25,7 @@
 5. Follow these [instructions](https://www.question-defense.com/2009/04/01/how-to-copy-and-paste-from-the-cygwin-bash-prompt) to enable copy and paste in cygwin.
 6. Login to the Contentful CLI by typing `contentful login` in your cygwin window. You will be prompted to bring authorize the application and paste a token into the window.
 7. Download a Zip file of the demo repo from [here](https://drive.google.com/open?id=1HuDzmlksLzz4ZQ3tEnL0xRPIDIru-N_U).
-8. Uncompress the Zip file by (need help from Meghan here).
+8. Uncompress the Zip file.
 9. Create a new directory for the demo on your laptop `mkdir tld`
 10. Go to the new directory `cd tld`
 11. Run the install script: `bin/install-twd.sh` in your cygwin window. This script will prompt you for your Contentful space ID and CDA token, then import the demo's content model and content, and finally create a new "demo" environment which the demo site uses.
