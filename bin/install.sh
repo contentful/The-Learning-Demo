@@ -10,8 +10,8 @@ read cdatoken
 echo "Let's start!"
 echo "Deleting demo environment if it already exists"
 contentful space environment delete --environment-id 'demo' --space-id $spaceid
-echo "About to import content from contentful_exports/tld.json"
-contentful space import --content-file contentful_exports/tld.json --space-id $spaceid
+echo "About to import content from contentful_exports/SEDemo.json"
+contentful space import --content-file contentful_exports/SEDemo.json --space-id $spaceid
 sed -i -e "s/space_id: ''/space_id: '$spaceid'/" src/components/config.js
 sed -i -e "s/delivery_token: ''/delivery_token: '$cdatoken'/" src/components/config.js
 echo "We're going to create a new environment named demo."
