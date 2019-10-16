@@ -5,10 +5,10 @@
 3. Install the Contentful CLI on your laptop - `sudo npm install -g contentful-cli`
 4. Store your Content Management API token on your laptop for future use by typing `contentful login` in your terminal window and follow the prompts
 5. Create/select a new Contentful space that supports 2 or more environments
-6. Go to the TLD Github repo and copy the URL to clone it here: `https://github.com/contentful/The-Learning-Demo`
+6. Go to the TLD Github repo and copy the URL to clone it here by clicking on the "Use HTTPS" link: `https://github.com/contentful/The-Learning-Demo`
 7. Create a new directory for the demo on your laptop `mkdir tld`
 8. Go to the new directory `cd tld`
-9. Clone the Github repo: `git clone git@github.com:contentful/The-Learning-Demo.git .`
+9. Clone the Github repo: `git clone https://github.com/contentful/The-Learning-Demo.git`
 10. Run the install script: `bin/install.sh` in a terminal window. This script will prompt you for your Contentful space ID and CDA token, then import the demo's content model and content, and finally create a new "demo" environment which the demo site uses
 11. Go to API keys in the Contentful app, scroll to the bottom, check the checkbox for demo and hit Save at the top. If you forget to do this the demo will display an empty page!!!
 12. Start the Node.js web server by typing `npm run dev` in your terminal window
