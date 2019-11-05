@@ -9,7 +9,7 @@
     "build": "webpack -p --define process.env.NODE_ENV='\"production\"'",
     "deploy": "now --public && now alias",
     "start": "node server.js",
-    "now-start": "NODE_ENV=production node server.js"
+    "heroku-postbuild": "webpack -p"
   },
   "author": "",
   "license": "ISC",
