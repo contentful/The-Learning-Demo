@@ -1,13 +1,12 @@
 {
-  "name": "the-learning-demo",
+  "name": "the-winning-demo",
   "version": "1.0.0",
   "description": "The Contentful Learning Demo",
   "main": "index.js",
-  "repository": "git@github.com/contentful/the-learning-demo.git",
+  "repository": "git@github.com/contentful/the-winning-demo.git",
   "scripts": {
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "webpack -p --define process.env.NODE_ENV='\"production\"'",
-    "deploy": "now --public && now alias",
     "start": "node server.js",
     "heroku-postbuild": "webpack -p"
   },
@@ -20,8 +19,8 @@
     "babel-preset-react": "^6.1.18",
     "jsdom": "^8.1.0",
     "react-addons-test-utils": "^0.14.7",
-    "webpack": "^1.15.0",
-    "webpack-cli": "^3.3.2",
+    "express": "^4.13.3",
+    "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
@@ -31,6 +30,7 @@
     "compression": "^1.7.2",
     "contentful": "^7.0.5",
     "dotenv": "^5.0.1",
+    "express": "^4.13.3",
     "lodash": "^4.17.5",
     "marked": "^0.3.6",
     "react": "^0.14.3",
