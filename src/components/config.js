@@ -1,9 +1,9 @@
 module.exports = {
   // /*preview host url*/ 
   // host: "preview.contentful.com",
-  space_id: '',
+  space_id: 'qc5se7hsn5aq',
   /*master DELIVERY*/
-  delivery_token: '',
+  delivery_token: 'P-1vqr8lBcMX3Qq7JWs2UaBByd5PZnXhLJgskxE1fKk',
   ///*master PREVIEW*/
   preview_token: '',
   environment: 'demo',
