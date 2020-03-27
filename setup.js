@@ -1,6 +1,7 @@
 require('dotenv').config()
+const contentful = require('contentful-management')
 const spaceImport = require('contentful-import')
-const exportFile = require('./contentful/export.json')
+const exportFile = require('./contentful_exports/exports.json')
 const inquirer = require('inquirer')
 const chalk = require('chalk')
 const path = require('path')
@@ -71,11 +72,11 @@ inquirer
 
     const fileContents =
       [
-        `# All environment variables will be sourced`,
-        `# Do NOT commit this file to source control`,
+        `// All environment variables will be sourced`,
+        `// Do NOT commit this file to source control`,
         `module.exports = {`,
-          `space_id: '${spaceId}'`,
-          `delivery_token: '${accessToken}'`,
+          `space_id: '${spaceId}',`,
+          `delivery_token: '${accessToken}',`,
           `environment: 'demo'`,
         `}`,
       ].join('\n') + '\n'
@@ -90,7 +91,14 @@ inquirer
     console.log('spaceid=' + spaceId);
     console.log('mgt token=' + managementToken);
     console.log('export file=' + exportFile);
-    spaceImport({ spaceId: spaceId, managementToken: managementToken, content: exportFile })
+    spaceImport({ spaceId: spaceId, managementToken: managementToken, content: exportFile });
+    const client = contentful.createClient({
+      accessToken: managementToken
+    })
+    client.getSpace(spaceId)
+    .then((space) => space.createEnvironment({name: 'demo'}))
+    .then((environment) => console.log(environment))
+    .catch(console.error)
   })
   .then((_, error) => {
     console.log(
