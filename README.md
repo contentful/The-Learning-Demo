@@ -17,7 +17,7 @@ npm i -g contentful-cli
 contentful login
 ```
 
-### `Run the installation script`
+### Run the installation script
 
 ```
 npm run install
