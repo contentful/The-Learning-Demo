@@ -27,9 +27,6 @@ console.log(`
   The ${chalk.green('Content Delivery API Token')}
     will be used to ship published production-ready content in your Gatsby app.
 
-  The ${chalk.green('Content Preview API Token')}
-    will be used to show not published data in your development environment.
-
   Ready? Let's do it! 🎉
 `)
 
@@ -37,7 +34,7 @@ const questions = [
   {
     name: 'spaceId',
     message: 'Your Space ID',
-    when: !argv.spaceId && !process.env.CF_COVID_SPACE_ID,
+    when: !argv.spaceId && !process.env.CF_TLD_SPACE_ID,
     validate: input =>
       /^[a-z0-9]{12}$/.test(input) ||
       'Space ID must be 12 lowercase characters',
@@ -49,7 +46,7 @@ const questions = [
   },
   {
     name: 'accessToken',
-    when: !argv.accessToken && !process.env.CF_COVID_ACCESS_TOKEN,
+    when: !argv.accessToken && !process.env.CF_TLD_ACCESS_TOKEN,
     message: 'Your Content Delivery API access token',
   },
 ]
@@ -57,13 +54,13 @@ const questions = [
 inquirer
   .prompt(questions)
   .then(({ spaceId, managementToken, accessToken }) => {
-    const { CF_COVID_SPACE_ID, CF_COVID_ACCESS_TOKEN } = process.env
+    const { CF_TLD_SPACE_ID, CF_TLD_ACCESS_TOKEN } = process.env
 
     // env vars are given precedence followed by args provided to the setup
     // followed by input given to prompts displayed by the setup script
-    spaceId = CF_COVID_SPACE_ID || argv.spaceId || spaceId
+    spaceId = CF_TLD_SPACE_ID || argv.spaceId || spaceId
     managementToken = argv.managementToken || managementToken
-    accessToken = CF_COVID_ACCESS_TOKEN || argv.accessToken || accessToken
+    accessToken = CF_TLD_ACCESS_TOKEN || argv.accessToken || accessToken
 
     console.log('Writing config file...')
     const configFiles = [`config.js`].map(file =>
@@ -88,23 +85,22 @@ inquirer
     return { spaceId, managementToken }
   })
   .then(({ spaceId, managementToken }) => {
-    console.log('spaceid=' + spaceId);
-    console.log('mgt token=' + managementToken);
-    console.log('export file=' + exportFile);
-    spaceImport({ spaceId: spaceId, managementToken: managementToken, content: exportFile });
-    const client = contentful.createClient({
-      accessToken: managementToken
+    spaceImport({ spaceId: spaceId, managementToken: managementToken, content: exportFile })
+      .then(() => {
+      const client = contentful.createClient({
+        accessToken: managementToken
+      })
+      client.getSpace(spaceId)
+      .then((space) => space.createEnvironmentWithId('demo', {name: 'Demo'}))
+      .then((environment) => console.log('Environment created with name: ' + environment))
+      .then((_, error) => {
+        console.log(
+          `All set! You can now run ${chalk.yellow(
+            'npm run dev'
+          )} to see it in action.`
+        )
+      })
+      .catch(console.error)
     })
-    client.getSpace(spaceId)
-    .then((space) => space.createEnvironment({name: 'demo'}))
-    .then((environment) => console.log(environment))
-    .catch(console.error)
-  })
-  .then((_, error) => {
-    console.log(
-      `All set! You can now run ${chalk.yellow(
-        'npm run dev'
-      )} to see it in action.`
-    )
   })
   .catch(error => console.error(error))
