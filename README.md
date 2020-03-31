@@ -10,22 +10,22 @@ $ npm install
 ### Set up of the needed content model and create a configuration file
 
 ```
-npm i -g contentful-cli
+$ npm i -g contentful-cli
 ```
 
 ```
-contentful login
+$ contentful login
 ```
 
 ### Run the installation script
 
 ```
-npm run setup
+$ npm run setup
 ```
 ### Run in the project locally
 
 ```
-npm run dev
+$ npm run dev
 ```
 ### View the app in a browser
 
