@@ -27,6 +27,11 @@ npm run setup
 ```
 npm run dev
 ```
+### View the app in a browser
+
+```
+http://localhost:8080/
+```
 
 ## Content model
 
