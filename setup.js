@@ -92,12 +92,14 @@ inquirer
       })
       client.getSpace(spaceId)
       .then((space) => space.createEnvironmentWithId('demo', {name: 'Demo'}))
-      .then((environment) => console.log('Environment created with name: ' + environment))
+      .then((environment) => console.log('Demo environment created'))
       .then((_, error) => {
         console.log(
-          `All set! You can now run ${chalk.yellow(
+          `All set! Make sure to give your API key access to your new demo environment. You can now run ${chalk.yellow(
             'npm run dev'
-          )} to see it in action.`
+          )} and bring up the app in a browser ${chalk.yellow(
+            'http://localhost:8080'
+          )} .`
         )
       })
       .catch(console.error)
