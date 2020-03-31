@@ -12,7 +12,7 @@
         "id": "imageWithCaption",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:26.611Z",
-        "updatedAt": "2020-03-23T22:58:43.367Z",
+        "updatedAt": "2020-03-31T17:32:27.851Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -20,8 +20,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 69,
-        "publishedAt": "2020-03-23T22:58:43.367Z",
+        "publishedVersion": 71,
+        "publishedAt": "2020-03-31T17:32:27.851Z",
         "firstPublishedAt": "2019-05-22T22:54:34.147Z",
         "createdBy": {
           "sys": {
@@ -37,8 +37,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 35,
-        "version": 70,
+        "publishedCounter": 36,
+        "version": 72,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -299,7 +299,7 @@
         "id": "heroImage",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:26.639Z",
-        "updatedAt": "2019-10-14T23:14:52.209Z",
+        "updatedAt": "2020-03-31T17:36:51.462Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -307,8 +307,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 109,
-        "publishedAt": "2019-10-14T23:14:52.209Z",
+        "publishedVersion": 113,
+        "publishedAt": "2020-03-31T17:36:51.462Z",
         "firstPublishedAt": "2019-05-22T22:54:27.865Z",
         "createdBy": {
           "sys": {
@@ -324,8 +324,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 55,
-        "version": 110,
+        "publishedCounter": 57,
+        "version": 114,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -365,17 +365,6 @@
           "disabled": false,
           "omitted": false,
           "linkType": "Asset"
-        },
-        {
-          "id": "cloudinaryImage",
-          "name": "Cloudinary image",
-          "type": "Object",
-          "localized": true,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
         }
       ]
     },
@@ -477,7 +466,7 @@
         "id": "callToAction",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:26.657Z",
-        "updatedAt": "2020-03-23T22:58:42.540Z",
+        "updatedAt": "2020-03-31T17:34:01.867Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -485,8 +474,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 75,
-        "publishedAt": "2020-03-23T22:58:42.540Z",
+        "publishedVersion": 79,
+        "publishedAt": "2020-03-31T17:34:01.867Z",
         "firstPublishedAt": "2019-05-22T22:54:33.071Z",
         "createdBy": {
           "sys": {
@@ -502,8 +491,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 38,
-        "version": 76,
+        "publishedCounter": 40,
+        "version": 80,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -790,7 +779,7 @@
         "id": "headline",
         "type": "ContentType",
         "createdAt": "2019-05-22T22:54:27.071Z",
-        "updatedAt": "2020-03-23T22:58:40.586Z",
+        "updatedAt": "2020-03-31T17:35:04.291Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -798,8 +787,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 69,
-        "publishedAt": "2020-03-23T22:58:40.586Z",
+        "publishedVersion": 71,
+        "publishedAt": "2020-03-31T17:35:04.291Z",
         "firstPublishedAt": "2019-05-22T22:54:31.326Z",
         "createdBy": {
           "sys": {
@@ -815,8 +804,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 35,
-        "version": 70,
+        "publishedCounter": 36,
+        "version": 72,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2012,7 +2001,7 @@
             "linkType": "Space"
           }
         },
-        "version": 70,
+        "version": 72,
         "createdAt": "2019-05-22T22:54:34.325Z",
         "createdBy": {
           "sys": {
@@ -2021,7 +2010,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-03-23T22:58:48.613Z",
+        "updatedAt": "2020-03-31T17:32:29.179Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -2047,15 +2036,18 @@
       "controls": [
         {
           "fieldId": "name",
-          "widgetId": "singleLine"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "image",
-          "widgetId": "assetLinkEditor"
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "caption",
-          "widgetId": "translate"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -2189,7 +2181,7 @@
             "linkType": "Space"
           }
         },
-        "version": 110,
+        "version": 114,
         "createdAt": "2019-05-22T22:54:28.019Z",
         "createdBy": {
           "sys": {
@@ -2198,7 +2190,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2019-10-14T23:14:52.929Z",
+        "updatedAt": "2020-03-31T17:36:53.374Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -2231,11 +2223,6 @@
           "fieldId": "image",
           "widgetId": "assetLinkEditor",
           "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "cloudinaryImage",
-          "widgetId": "4mBvzDLXEsqAsATGvrfv33",
-          "widgetNamespace": "extension"
         }
       ]
     },
@@ -2308,7 +2295,7 @@
             "linkType": "Space"
           }
         },
-        "version": 76,
+        "version": 80,
         "createdAt": "2019-05-22T22:54:33.215Z",
         "createdBy": {
           "sys": {
@@ -2317,7 +2304,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-03-23T22:58:48.611Z",
+        "updatedAt": "2020-03-31T17:34:03.528Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -2343,15 +2330,18 @@
       "controls": [
         {
           "fieldId": "name",
-          "widgetId": "singleLine"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "text",
-          "widgetId": "translate"
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "buttonText",
-          "widgetId": "translate"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -2492,7 +2482,7 @@
             "linkType": "Space"
           }
         },
-        "version": 70,
+        "version": 72,
         "createdAt": "2019-05-22T22:54:31.522Z",
         "createdBy": {
           "sys": {
@@ -2501,7 +2491,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2020-03-23T22:58:48.607Z",
+        "updatedAt": "2020-03-31T17:35:06.264Z",
         "updatedBy": {
           "sys": {
             "id": "45VX0tlnhX9oU1TT1LUzFY",
@@ -2527,18 +2517,21 @@
       "controls": [
         {
           "fieldId": "name",
-          "widgetId": "singleLine"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "headline",
-          "widgetId": "translate"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         },
         {
           "fieldId": "subHeadline",
           "settings": {
             "helpText": "The sub-headline is optional. If left blank this will just highlight the headline more. "
           },
-          "widgetId": "singleLine"
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
         }
       ]
     },
@@ -10131,380 +10124,6 @@
     }
   ],
   "webhooks": [
-    {
-      "name": "Approval workflow",
-      "url": "https://6ajny5opo2.execute-api.us-east-1.amazonaws.com/production/logging",
-      "httpBasicUsername": null,
-      "topics": [
-        "Entry.auto_save"
-      ],
-      "filters": [
-        {
-          "equals": [
-            {
-              "doc": "sys.contentType.sys.id"
-            },
-            "paragraphOnly"
-          ]
-        }
-      ],
-      "transformation": null,
-      "sys": {
-        "type": "WebhookDefinition",
-        "id": "2ntVeSiPy3EKL1ILkMWgac",
-        "version": 0,
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "qc5se7hsn5aq"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "45VX0tlnhX9oU1TT1LUzFY"
-          }
-        },
-        "createdAt": "2019-05-22T22:55:51Z",
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "45VX0tlnhX9oU1TT1LUzFY"
-          }
-        },
-        "updatedAt": "2019-05-22T22:55:51Z"
-      },
-      "headers": [
-        {
-          "key": "x-api-key",
-          "value": "hiYmkFjFOV8DuuycYfb6b9TOhmjPjcdGaO7BYJy8"
-        }
-      ]
-    },
-    {
-      "name": "jbodenhausen_dev events",
-      "url": "http://webhook.site/2e5d10d7-a747-4bf8-9e5b-fb0e5bd9ff54",
-      "httpBasicUsername": null,
-      "topics": [
-        "*.*"
-      ],
-      "filters": [
-        {
-          "equals": [
-            {
-              "doc": "sys.environment.sys.id"
-            },
-            "jbodenhausen_dev"
-          ]
-        }
-      ],
-      "transformation": null,
-      "sys": {
-        "type": "WebhookDefinition",
-        "id": "1FlipoABa9wQpikNH9eQ2u",
-        "version": 0,
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "qc5se7hsn5aq"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "45VX0tlnhX9oU1TT1LUzFY"
-          }
-        },
-        "createdAt": "2019-05-22T22:55:51Z",
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "45VX0tlnhX9oU1TT1LUzFY"
-          }
-        },
-        "updatedAt": "2019-05-22T22:55:51Z"
-      },
-      "headers": [
-      ]
-    },
-    {
-      "name": "Logging",
-      "url": "http://logs-01.loggly.com/inputs/72bec389-762d-49cf-b12f-4ffce70b5026/tag/http/",
-      "httpBasicUsername": null,
-      "topics": [
-        "*.*"
-      ],
-      "filters": null,
-      "transformation": null,
-      "sys": {
-        "type": "WebhookDefinition",
-        "id": "62CIkAQbUD8hDmtoDNi454",
-        "version": 0,
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "qc5se7hsn5aq"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "45VX0tlnhX9oU1TT1LUzFY"
-          }
-        },
-        "createdAt": "2019-05-22T22:55:51Z",
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "45VX0tlnhX9oU1TT1LUzFY"
-          }
-        },
-        "updatedAt": "2019-05-22T22:55:51Z"
-      },
-      "headers": [
-      ]
-    },
-    {
-      "name": "Smartling-Asset-Updated",
-      "url": "https://api.smartling.com/contentful-connector-api/v2/webhook/media",
-      "httpBasicUsername": null,
-      "topics": [
-        "Asset.save",
-        "Asset.auto_save"
-      ],
-      "filters": null,
-      "transformation": null,
-      "sys": {
-        "type": "WebhookDefinition",
-        "id": "27nrgCNQIS3031yln8GjKm",
-        "version": 0,
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "qc5se7hsn5aq"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "45VX0tlnhX9oU1TT1LUzFY"
-          }
-        },
-        "createdAt": "2019-05-22T22:55:51Z",
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "45VX0tlnhX9oU1TT1LUzFY"
-          }
-        },
-        "updatedAt": "2019-05-22T22:55:51Z"
-      },
-      "headers": [
-        {
-          "key": "X-SL-Project-Id",
-          "value": "912795f15"
-        }
-      ]
-    },
-    {
-      "name": "Smartling-Entry-Updated",
-      "url": "https://api.smartling.com/contentful-connector-api/v2/webhook/entry",
-      "httpBasicUsername": null,
-      "topics": [
-        "Entry.save",
-        "Entry.auto_save"
-      ],
-      "filters": null,
-      "transformation": null,
-      "sys": {
-        "type": "WebhookDefinition",
-        "id": "274DsDBRBzzn2LRwmdJTFa",
-        "version": 0,
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "qc5se7hsn5aq"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "45VX0tlnhX9oU1TT1LUzFY"
-          }
-        },
-        "createdAt": "2019-05-22T22:55:51Z",
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "45VX0tlnhX9oU1TT1LUzFY"
-          }
-        },
-        "updatedAt": "2019-05-22T22:55:51Z"
-      },
-      "headers": [
-        {
-          "key": "X-SL-Project-Id",
-          "value": "912795f15"
-        }
-      ]
-    },
-    {
-      "name": "Algolia App: Delete Paragraph with Headline (en-US)",
-      "url": "https://AMB0L4KKRZ.algolia.net/1/indexes/dev_TEST/{ /payload/sys/id }",
-      "httpBasicUsername": null,
-      "topics": [
-        "Entry.unpublish"
-      ],
-      "filters": [
-        {
-          "equals": [
-            {
-              "doc": "sys.environment.sys.id"
-            },
-            "master"
-          ]
-        },
-        {
-          "equals": [
-            {
-              "doc": "sys.contentType.sys.id"
-            },
-            "paragraphWithHeadline"
-          ]
-        }
-      ],
-      "transformation": {
-        "method": "DELETE"
-      },
-      "sys": {
-        "type": "WebhookDefinition",
-        "id": "3LjyrJntAACbHChDwK4dy6",
-        "version": 0,
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "qc5se7hsn5aq"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "45VX0tlnhX9oU1TT1LUzFY"
-          }
-        },
-        "createdAt": "2019-07-30T21:39:50Z",
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "45VX0tlnhX9oU1TT1LUzFY"
-          }
-        },
-        "updatedAt": "2019-07-30T21:39:50Z"
-      },
-      "headers": [
-        {
-          "key": "X-Algolia-Application-Id",
-          "value": "AMB0L4KKRZ"
-        },
-        {
-          "key": "X-Algolia-API-Key",
-          "secret": true
-        }
-      ]
-    },
-    {
-      "name": "Algolia App: Index Paragraph with Headline (en-US)",
-      "url": "https://AMB0L4KKRZ.algolia.net/1/indexes/dev_TEST/{ /payload/sys/id }",
-      "httpBasicUsername": null,
-      "topics": [
-        "Entry.publish"
-      ],
-      "filters": [
-        {
-          "equals": [
-            {
-              "doc": "sys.environment.sys.id"
-            },
-            "master"
-          ]
-        },
-        {
-          "equals": [
-            {
-              "doc": "sys.contentType.sys.id"
-            },
-            "paragraphWithHeadline"
-          ]
-        }
-      ],
-      "transformation": {
-        "method": "PUT",
-        "contentType": "application/json; charset=utf-8",
-        "body": {
-          "name": "{ /payload/fields/name/en-US }",
-          "headline": "{ /payload/fields/headline/en-US }",
-          "paragraph": "{ /payload/fields/paragraph/en-US }",
-          "_entryId_": "{ /payload/sys/id }",
-          "_contentTypeId_": "{ /payload/sys/contentType/sys/id }"
-        }
-      },
-      "sys": {
-        "type": "WebhookDefinition",
-        "id": "3Lm45DW4jnzIQrsuRt0fr0",
-        "version": 0,
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "qc5se7hsn5aq"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "45VX0tlnhX9oU1TT1LUzFY"
-          }
-        },
-        "createdAt": "2019-07-30T21:39:50Z",
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "45VX0tlnhX9oU1TT1LUzFY"
-          }
-        },
-        "updatedAt": "2019-07-30T21:39:50Z"
-      },
-      "headers": [
-        {
-          "key": "X-Algolia-Application-Id",
-          "value": "AMB0L4KKRZ"
-        },
-        {
-          "key": "X-Algolia-API-Key",
-          "secret": true
-        }
-      ]
-    }
   ],
   "roles": [
     {
