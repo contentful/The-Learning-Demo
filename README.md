@@ -20,7 +20,7 @@ contentful login
 ### Run the installation script
 
 ```
-npm run install
+npm run setup
 ```
 ### Run in the project locally
 
