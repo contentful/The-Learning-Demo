@@ -5,10 +5,9 @@
   "main": "index.js",
   "repository": "git@github.com:contentful/The-Learning-Demo.git",
   "scripts": {
-    "install": "node setup.js",
+    "setup": "node setup.js",
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "webpack -p --define process.env.NODE_ENV='\"production\"'",
-    "start": "node server.js",
     "heroku-postbuild": "webpack -p"
   },
   "author": "",
