@@ -1,5 +1,7 @@
 # Contentful Learning Demo
 
+![TLD](./TLD.png)
+
 ### Get the source code and install dependencies.
 
 ```
@@ -32,8 +34,6 @@ $ npm run dev
 ```
 http://localhost:8080/
 ```
-
-![TLD](./TLD.png)
 
 ## Content model
 
