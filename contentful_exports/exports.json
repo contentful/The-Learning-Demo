@@ -6829,7 +6829,7 @@
         "id": "6109VUp8ZiIM0wYW0GAEMI",
         "type": "Asset",
         "createdAt": "2020-04-01T20:02:10.446Z",
-        "updatedAt": "2020-04-01T22:15:34.544Z",
+        "updatedAt": "2020-04-01T23:09:20.098Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -6837,8 +6837,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 6,
-        "publishedAt": "2020-04-01T22:15:34.544Z",
+        "publishedVersion": 10,
+        "publishedAt": "2020-04-01T23:09:20.098Z",
         "firstPublishedAt": "2020-04-01T20:02:55.367Z",
         "createdBy": {
           "sys": {
@@ -6854,8 +6854,8 @@
             "id": "45VX0tlnhX9oU1TT1LUzFY"
           }
         },
-        "publishedCounter": 2,
-        "version": 7,
+        "publishedCounter": 3,
+        "version": 11,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -6870,15 +6870,15 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/wgjek2j957u7/6109VUp8ZiIM0wYW0GAEMI/f277dc52098cac0497f58e8ab698d5b5/deluxe_room.jpeg",
+            "url": "//images.ctfassets.net/wgjek2j957u7/6109VUp8ZiIM0wYW0GAEMI/686853a94db2d6cabf7197e087971302/nobu_suite.jpg",
             "details": {
-              "size": 8018,
+              "size": 617056,
               "image": {
-                "width": 279,
-                "height": 181
+                "width": 3000,
+                "height": 2250
               }
             },
-            "fileName": "deluxe room.jpeg",
+            "fileName": "nobu suite.jpg",
             "contentType": "image/jpeg"
           }
         }
