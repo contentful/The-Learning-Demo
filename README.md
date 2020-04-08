@@ -24,6 +24,11 @@ $ contentful login
 ```
 $ npm run setup
 ```
+
+### Important! Give your API key access to the new demo environment
+
+![API key](./api_key.png)
+
 ### Run in the project locally
 
 ```
