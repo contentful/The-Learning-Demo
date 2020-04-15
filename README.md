@@ -9,16 +9,6 @@ $ git clone https://github.com/contentful/The-Learning-Demo.git .
 $ npm install
 ```
 
-### Set up of the needed content model and create a configuration file
-
-```
-$ npm i -g contentful-cli
-```
-
-```
-$ contentful login
-```
-
 ### Run the installation script
 
 ```
