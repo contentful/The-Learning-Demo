@@ -1,5 +1,9 @@
 # Contentful Learning Demo
 
+### Installation prerequisites
+
+We recommend installing this demo app in an empty space - it will create 15 content types during installation. Node.js 12.18.1 or greater is recommended.
+
 ![TLD](./TLD.png)
 
 ### Get the source code and install dependencies.
