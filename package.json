@@ -2,6 +2,9 @@
   "name": "the-learning-demo",
   "version": "1.0.0",
   "description": "The Contentful Learning Demo",
+  "engines": {
+    "node": "12.x"
+  },
   "main": "index.js",
   "repository": "git@github.com:contentful/The-Learning-Demo.git",
   "scripts": {
