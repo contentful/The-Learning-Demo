@@ -25,7 +25,7 @@ export default class ProductsIndex extends Component {
     const contentfulClient = contentful.createClient(options)
 
     document.title = 'The Learning Demo';
-    contentfulClient.getEntries({content_type: 'product', order: '-sys.createdAt'}).then(data => {
+    contentfulClient.getEntries({content_type: 'landingPage', order: '-sys.createdAt'}).then(data => {
       var products = data.items.map(product => product.fields.title).sort()
       var obj = {};
       for (let i = 0; i < data.items.length; i++) {
