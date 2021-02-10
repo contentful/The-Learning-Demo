@@ -23,5 +23,5 @@ module.exports = {
     historyApiFallback: true,
     contentBase: './'
   },
-  devtool: 'cheap-module-eval-source-map'
+  devtool: 'eval-source-map'
 };
