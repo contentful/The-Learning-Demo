@@ -10,6 +10,7 @@
   "scripts": {
     "setup": "node setup.js",
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "debug": "node --inspect ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "webpack -p --define process.env.NODE_ENV='\"production\"'",
     "heroku-postbuild": "webpack -p"
   },

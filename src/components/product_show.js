@@ -53,7 +53,7 @@ export default class ProductShow extends Component {
 
       //Get entries for each locale setup for the space
       localeCodes.map((localeCode)=>{
-        contentfulClient.getEntries({content_type: 'product', locale:localeCode, 'fields.slug': this.props.location.pathname.split('/')[1], include: 10})
+        contentfulClient.getEntries({content_type: 'landingPage', locale:localeCode, 'fields.slug': this.props.location.pathname.split('/')[1], include: 10})
         .then(data => {
           productsByLocale[localeCode] = data.items[0];
 
@@ -83,7 +83,7 @@ export default class ProductShow extends Component {
 
   render() {
     if (!this.state.productsByLocale[this.state.currentLocale]) {
-      return (<div>Loading...</div>);
+      return (<div>Loading!!!</div>);
     }
 
     document.title = this.state.productsByLocale[this.state.currentLocale].fields.title;
