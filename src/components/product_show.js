@@ -83,7 +83,7 @@ export default class ProductShow extends Component {
 
   render() {
     if (!this.state.productsByLocale[this.state.currentLocale]) {
-      return (<div>Loading!!!</div>);
+      return (<div>Loading...</div>);
     }
 
     document.title = this.state.productsByLocale[this.state.currentLocale].fields.title;
