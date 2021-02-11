@@ -7,7 +7,7 @@ import config from './config';
 
 const TEST_IMAGE_URL = "https://images.ctfassets.net/34zhepmq2vpx/4ClyFr0XGwcOiKUMyyiMKO/c47e029fa790bf3c01b8900bd6cacf87/TWD_Test_Image6.png";
 
-export default class ProductShow extends Component {
+export default class ProductShow extends React.Component {
   constructor(props) {
     super(props);
 
