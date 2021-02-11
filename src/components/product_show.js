@@ -27,7 +27,7 @@ export default class ProductShow extends React.Component {
     this.setState(()=>({currentLocale: selectedCode}));
   }
 
-  componentWillMount() {
+  componentDidMount() {
     const options = {}
     
     let is_preview = this.props.location.query.hasOwnProperty('preview')
