@@ -8,6 +8,7 @@ import config from './config';
 const TEST_IMAGE_URL = "https://images.ctfassets.net/34zhepmq2vpx/4ClyFr0XGwcOiKUMyyiMKO/c47e029fa790bf3c01b8900bd6cacf87/TWD_Test_Image6.png";
 
 export default class ProductShow extends React.Component {
+  
   constructor(props) {
     super(props);
 
@@ -20,14 +21,7 @@ export default class ProductShow extends React.Component {
     };
 
     this.handleSelectLocale = this.handleSelectLocale.bind(this);
-  }
 
-  //Perform handling for the selection of the locale
-  handleSelectLocale(selectedCode) {
-    this.setState(()=>({currentLocale: selectedCode}));
-  }
-
-  componentDidMount() {
     const options = {}
     
     let is_preview = this.props.location.query.hasOwnProperty('preview')
@@ -53,7 +47,7 @@ export default class ProductShow extends React.Component {
 
       //Get entries for each locale setup for the space
       localeCodes.map((localeCode)=>{
-        contentfulClient.getEntries({content_type: 'landingPage', locale:localeCode, 'fields.slug': this.props.location.pathname.split('/')[1], include: 10})
+        contentfulClient.getEntries({content_type: 'landingPage', locale: localeCode, 'fields.slug': this.props.location.pathname.split('/')[1], include: 10})
         .then(data => {
           productsByLocale[localeCode] = data.items[0];
 
@@ -73,6 +67,11 @@ export default class ProductShow extends React.Component {
         })
       })
     })
+  }
+
+  //Perform handling for the selection of the locale
+  handleSelectLocale(selectedCode) {
+    this.setState(()=>({currentLocale: selectedCode}));
   }
 
   renderMarkdown(content) {

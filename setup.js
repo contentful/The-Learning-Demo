@@ -1,7 +1,7 @@
 require('dotenv').config()
 const contentful = require('contentful-management')
 const spaceImport = require('contentful-import')
-const exportFile = require('./contentful_exports/exports.json')
+const exportFile = require('./contentful-exports/exports.json')
 const inquirer = require('inquirer')
 const chalk = require('chalk')
 const path = require('path')
