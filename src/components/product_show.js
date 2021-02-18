@@ -20,16 +20,9 @@ export default class ProductShow extends React.Component {
     };
 
     this.handleSelectLocale = this.handleSelectLocale.bind(this);
-  }
 
-  //Perform handling for the selection of the locale
-  handleSelectLocale(selectedCode) {
-    this.setState(()=>({currentLocale: selectedCode}));
-  }
-
-  componentDidMount() {
     const options = {}
-    
+
     let is_preview = this.props.location.query.hasOwnProperty('preview')
     let space_id = this.props.location.query.space_id
     let access_token = this.props.location.query.access_token
@@ -39,7 +32,7 @@ export default class ProductShow extends React.Component {
     options.accessToken = access_token ? access_token : is_preview ? config.preview_token : config.delivery_token
     // hard code to start
     options.environment = config.environment ? config.environment : 'master';
-    
+
     const contentfulClient = contentful.createClient(options)
     //Get the locales setup for the space and do necessary processing
     contentfulClient.getLocales().then(data => {
@@ -53,7 +46,7 @@ export default class ProductShow extends React.Component {
 
       //Get entries for each locale setup for the space
       localeCodes.map((localeCode)=>{
-        contentfulClient.getEntries({content_type: 'landingPage', locale:localeCode, 'fields.slug': this.props.location.pathname.split('/')[1], include: 10})
+        contentfulClient.getEntries({content_type: 'landingPage', locale: localeCode, 'fields.slug': this.props.location.pathname.split('/')[1], include: 10})
         .then(data => {
           productsByLocale[localeCode] = data.items[0];
 
@@ -73,6 +66,11 @@ export default class ProductShow extends React.Component {
         })
       })
     })
+  }
+
+  //Perform handling for the selection of the locale
+  handleSelectLocale(selectedCode) {
+    this.setState(()=>({currentLocale: selectedCode}));
   }
 
   renderMarkdown(content) {
