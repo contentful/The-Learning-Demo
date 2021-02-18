@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { fetchAsset } from '../actions/index';
 
 class Asset extends Component {
-  componentWillMount() {
+  componentDidMount() {
     this.props.fetchAsset(this.props.assetId)
   }
   renderAsset() {

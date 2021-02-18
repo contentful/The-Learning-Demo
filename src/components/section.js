@@ -5,7 +5,6 @@ import CallToAction from './call_to_action';
 import Header from './header';
 import Headline from './headline'
 import HeroImage from './hero_image';
-import ImageCarousel from './image_carousel'
 import ImageWithCaption from './image_with_caption';
 import ParagraphWithHeadline from './paragraph_with_headline'
 import SetOfTwo from './set_of_two'
@@ -27,8 +26,6 @@ export default class Section extends React.Component {
         return ( <Headline              fields={this.props.section.fields} /> )
       case 'heroImage':
         return ( <HeroImage             fields={this.props.section.fields} defaultImageURL={this.props.defaultImageURL} /> )
-      case 'imageCarousel':
-        return ( <ImageCarousel         fields={this.props.section.fields} defaultImageURL={this.props.defaultImageURL} /> )
       case 'imageWithCaption':
         return ( <ImageWithCaption      fields={this.props.section.fields} defaultImageURL={this.props.defaultImageURL} /> )
       case 'paragraphWithHeadline':
