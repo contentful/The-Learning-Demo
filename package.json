@@ -47,7 +47,7 @@
     "contentful": "^7.0.5",
     "dotenv": "^8.0.0",
     "express": "^4.13.3",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.21",
     "marked": "^0.3.6",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
