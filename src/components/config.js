@@ -1,7 +1,7 @@
 // All environment variables will be sourced
 // Do NOT commit this file to source control
 module.exports = {
-space_id: 'g1v350ir3k1n',
-delivery_token: 'F1iMLi3wab9BuDPShD1_WxVOc0FV7WQ9BAbblfYbE7o',
+space_id: 's03wastxid7g',
+delivery_token: 'MQydt8bTk8lVwMHmcJqFs9fGqBheVvGa-JBsH1FZw8Q',
 environment: 'demo'
 }
