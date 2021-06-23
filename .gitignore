@@ -22,7 +22,7 @@ node_modules/
 *.tgz
 
 # build folder
-public
+#public
 
 # secrets
 .contentful.json
