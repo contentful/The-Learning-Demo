@@ -5,6 +5,10 @@ import "./assets/css/main.css";
 // import "./assets/css/theme.css"
 import "./assets/css/font-awesome.min.css";
 
+import "react-app-polyfill/ie9";
+import "react-app-polyfill/ie11";
+import "react-app-polyfill/stable";
+
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 

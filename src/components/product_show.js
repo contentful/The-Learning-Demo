@@ -154,20 +154,25 @@ export default function ProductShow(props) {
   document.title = productsByLocale[currentLocale].fields.title;
 
   let sections = productsByLocale[currentLocale].fields.sections.map(
-    (section, idx) => (
-      <div key={idx}>
-        <Section
-          sectionType={section.sys.contentType.sys.id}
-          section={section}
-          key={section.sys.id}
-          ArrayKey={idx}
-          sys={section.sys}
-          currentLocale={currentLocale}
-          defaultImageURL={defaultImageURL}
-        />
-      </div>
-    )
+    (section, idx) => {
+      if (section) {
+        return (
+          <Section
+            sectionType={section.sys.contentType.sys.id}
+            section={section}
+            key={section.sys.id}
+            ArrayKey={idx}
+            sys={section.sys}
+            currentLocale={currentLocale}
+            defaultImageURL={defaultImageURL}
+          />
+        );
+      } else {
+        return "---";
+      }
+    }
   );
+
   return (
     <div className="w-full ">
       {sections}
