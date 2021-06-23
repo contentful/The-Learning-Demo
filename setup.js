@@ -40,14 +40,14 @@ const questions = [
       'Space ID must be 12 lowercase characters',
   },
   {
-    name: 'managementToken',
-    when: !argv.managementToken,
-    message: 'Your Content Management API access token',
-  },
-  {
     name: 'accessToken',
     when: !argv.accessToken && !process.env.CF_TLD_ACCESS_TOKEN,
     message: 'Your Content Delivery API access token',
+  },
+  {
+    name: 'managementToken',
+    when: !argv.managementToken,
+    message: 'Your Content Management API access token',
   },
 ]
 
