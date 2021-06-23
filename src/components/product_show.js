@@ -4,6 +4,7 @@ import * as contentful from 'contentful';
 import Section from './section';
 import LocaleSelect from './locale_select';
 import config from './config';
+import marked from 'marked'
 
 const TEST_IMAGE_URL = "https://images.ctfassets.net/34zhepmq2vpx/4ClyFr0XGwcOiKUMyyiMKO/c47e029fa790bf3c01b8900bd6cacf87/TWD_Test_Image6.png";
 
@@ -20,11 +21,16 @@ export default class ProductShow extends React.Component {
       defaultImageURL: undefined
     };
 
-    this.handleSelectLocale = this.handleSelectLocale.bind(this);
+    // this.handleSelectLocale = this.handleSelectLocale.bind(this);
 
+ 
+  }
+   getCflData =   async () =>{
+    alert("run")
     const options = {}
     
-    let is_preview = this.props.location.query.hasOwnProperty('preview')
+    // let is_preview = this.props.location.query.hasOwnProperty('preview')
+    let is_preview = ""
     let space_id = this.props.location.query.space_id
     let access_token = this.props.location.query.access_token
 
@@ -34,9 +40,9 @@ export default class ProductShow extends React.Component {
     // hard code to start
     options.environment = config.environment ? config.environment : 'master';
     
-    const contentfulClient = contentful.createClient(options)
+    const contentfulClient =  contentful.createClient(options)
     //Get the locales setup for the space and do necessary processing
-    contentfulClient.getLocales().then(data => {
+     await contentfulClient.getLocales().then(data => {
       //Store current locale codes in array to be populated in select dropdown on page
       const localeCodes = data.items.map( (localeData) => localeData.code );
 
@@ -63,10 +69,26 @@ export default class ProductShow extends React.Component {
               defaultLocale: defaultLocale,
               defaultImageURL: TEST_IMAGE_URL
             }));
+          }else{
+            alert("sorry something went wrong")
           }
         })
       })
     })
+
+  }
+
+   componentDidMount(){
+     try {
+      this.getCflData();
+       
+     } catch (error) {
+       
+     }
+
+     
+   
+
   }
 
   //Perform handling for the selection of the locale
@@ -82,7 +104,7 @@ export default class ProductShow extends React.Component {
 
   render() {
     if (!this.state.productsByLocale[this.state.currentLocale]) {
-      return (<div>Loading...</div>);
+      return (<div>Loading... {this.state.currentLocale} {JSON.stringify(this.state.productsByLocale)}</div> );
    }
 
     document.title = this.state.productsByLocale[this.state.currentLocale].fields.title;
@@ -100,8 +122,12 @@ export default class ProductShow extends React.Component {
 
     return (
       <div>
+        {this.state.currentLocale}
+       
+        {/* {JSON.stringify(this.state.productsByLocale.hasOwnProperty('en-US'))} */}
         {sections}
         <LocaleSelect locales={this.state.locales} currentLocale={this.state.currentLocale} handleSelectLocale={this.handleSelectLocale} />
+     
       </div>
     )
   }

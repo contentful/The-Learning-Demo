@@ -20,9 +20,10 @@ export default class HeroImage extends React.Component {
 
     return (
         <div data-content-type='heroImage'
-             className="hero-image"
+             className="hero-image bg-fixed"
              style={{backgroundImage: `url(${imageURL})`}}
         >
+          
           {/* The following sprite is to help load the background image faster */}
           <img src={`${imageURL}`} style={{display: 'none'}}/>
         </div>

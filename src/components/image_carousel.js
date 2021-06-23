@@ -17,6 +17,7 @@ export default class ImageCarousel extends React.Component {
         <Slider {...settings} className='slider-carousel' data-content-type='imageCarousel'>
           {images.map((image) => (
               <div className='individual-carousel-container'>
+                
                 <img src={image} className='individual-carousel' />
               </div>
             )
