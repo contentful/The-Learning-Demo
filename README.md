@@ -1,4 +1,4 @@
-# Contentful Learning Demo
+# Contentful Learning Demo (CRA Version)
 
 ### Installation prerequisites
 
