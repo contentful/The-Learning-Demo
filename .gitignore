@@ -29,7 +29,7 @@ node_modules/
 .env*
 !.env.example
 .env
-*config.json
+*config.js
 
 # contentful cli
 contentful-import*
