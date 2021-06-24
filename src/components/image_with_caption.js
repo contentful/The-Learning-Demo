@@ -11,14 +11,21 @@ export default class ImageWithCaption extends React.Component {
     const imageURL = (this.props.fields.image && this.props.fields.image.fields.file) ? this.props.fields.image.fields.file.url : this.props.defaultImageURL;
 
     return (
-      <div data-content-type='imageWithCaption' className={this.props.className} >
-        <picture>
-          <source srcSet={`https:${imageURL}?fit=fill&fm=webp&h=400&w=600`} type="image/webp" className='mx-auto img-with-caption img-fluid rounded my-sm-3' />
-          <img src={`https:${imageURL}?fit=fill&fm=jpg&h=400&w=600`}
-              className='mx-auto img-with-caption img-fluid rounded my-sm-3' />
-        </picture>
-        <div className='caption text-center'>{this.props.fields.caption}</div>
+      <div className="flex flex-row w-full text-center">
+        
+        <div className="w-full mb-4 flex flex-col">   
+        <div className="w-full">
+            <picture >
+              <source srcSet={`https:${imageURL}?fit=fill&fm=webp&h=400&w=600`} type="image/webp" className='mx-auto img-with-caption img-fluid rounded my-sm-3' />
+              <img src={`https:${imageURL}?fit=fill&fm=jpg&h=400&w=600`}
+                  className='mx-auto img-with-caption img-fluid rounded my-sm-3' />
+            </picture>
+          </div>  
+          {/* {JSON.stringify(this.props.fields.name)}    */}
+   
+        <div className='w-full captionx text-center font-bold mt-2 underline'>{this.props.fields.name}</div></div>
       </div>
+   
     )
   }
 }

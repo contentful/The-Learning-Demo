@@ -12,18 +12,20 @@ const LocaleSelect = (props) => {
 
     //Return JSX with select control for choosing locale options
     return (
-      <div className='row'>
-        <div className='col-md-3'></div>
-        <div className={`text-center border-0 col-lg-6 m-lg-5 p-lg-3 p-3 m-1`}>
+      <div className='row w-full mb-8'>
+        <div className="flex flex-col items-center mt-2 mb-2">
+          <div className="">
           <select
-            className='locale-control text-center'
+            className='locale-control text-center w-full'
             onChange={ (e)=>{
               props.handleSelectLocale(e.target.value)
           }}>
             {localeOptions}
           </select>
+          </div>
         </div>
         <div className='col-md-3'></div>
+     
       </div>
     )
 }

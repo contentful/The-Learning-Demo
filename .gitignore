@@ -22,13 +22,14 @@ node_modules/
 *.tgz
 
 # build folder
-public
+#public
 
 # secrets
 .contentful.json
 .env*
 !.env.example
 .env
+*config.js
 
 # contentful cli
 contentful-import*

@@ -1,4 +1,4 @@
-# Contentful Learning Demo
+# Contentful Learning Demo(CRA-Version)
 
 ### Installation prerequisites
 
@@ -26,12 +26,13 @@ $ npm run setup
 ### Run in the project locally
 
 ```
-$ npm run dev
+$ npm run start
 ```
+
 ### View the app in a browser
 
 ```
-http://localhost:8080/
+http://localhost:3000/
 ```
 
 ## Content model

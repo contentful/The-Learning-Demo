@@ -4,6 +4,11 @@ export const FETCH_PRODUCTS = 'FETCH_PRODUCTS';
 export const FETCH_PRODUCT = 'FETCH_PRODUCT';
 export const FETCH_ASSET = 'FETCH_ASSET';
 
+const API_BASE_URL = ""
+const API_SPACE_ID = ""
+const API_TOKEN = ""
+
+
 
 export function fetchProducts() {
   const request = axios.get(`${API_BASE_URL}/spaces/${API_SPACE_ID}/entries?access_token=${API_TOKEN}&content_type=product&order=-sys.updatedAt`);
