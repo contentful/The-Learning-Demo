@@ -176,11 +176,15 @@ export default function ProductShow(props) {
   return (
     <div className="w-full ">
       {sections}
-      <LocaleSelect
-        locales={locales}
-        currentLocale={currentLocale}
-        handleSelectLocale={handleSelectLocale}
-      />
+      {locales ? (
+        <LocaleSelect
+          locales={locales}
+          currentLocale={currentLocale}
+          handleSelectLocale={handleSelectLocale}
+        />
+      ) : (
+        ""
+      )}
 
       <div className="flex flex-col justify-items-center items-center">
         <div className="mb-2">

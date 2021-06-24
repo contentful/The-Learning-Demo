@@ -12,8 +12,6 @@ import "react-app-polyfill/stable";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import promise from "redux-promise";
-
 import { Provider } from "react-redux";
 
 import store from "./reducers";
