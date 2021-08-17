@@ -52,6 +52,7 @@ export default function ProductShow(props) {
       .then((data) => {
         //Store current locale codes in array to be populated in select dropdown on page
         const localeCodes = data.items.map((localeData) => localeData.code);
+        //  console.log("localeCodes", data.items)
 
         //Filter to find the default locale to use later
         const defaultLocaleHolder = data.items.filter(
@@ -85,6 +86,7 @@ export default function ProductShow(props) {
               }
             })
             .catch((erx) => {
+              alert("error1");
               console.log("An Error Occured", erx);
             });
         });
@@ -154,37 +156,28 @@ export default function ProductShow(props) {
   document.title = productsByLocale[currentLocale].fields.title;
 
   let sections = productsByLocale[currentLocale].fields.sections.map(
-    (section, idx) => {
-      if (section) {
-        return (
-          <Section
-            sectionType={section.sys.contentType.sys.id}
-            section={section}
-            key={section.sys.id}
-            ArrayKey={idx}
-            sys={section.sys}
-            currentLocale={currentLocale}
-            defaultImageURL={defaultImageURL}
-          />
-        );
-      } else {
-        return "---";
-      }
-    }
+    (section, idx) => (
+      <div key={idx}>
+        <Section
+          sectionType={section.sys.contentType.sys.id}
+          section={section}
+          key={section.sys.id}
+          ArrayKey={idx}
+          sys={section.sys}
+          currentLocale={currentLocale}
+          defaultImageURL={defaultImageURL}
+        />
+      </div>
+    )
   );
-
   return (
     <div className="w-full ">
       {sections}
-      {locales ? (
-        <LocaleSelect
-          locales={locales}
-          currentLocale={currentLocale}
-          handleSelectLocale={handleSelectLocale}
-        />
-      ) : (
-        ""
-      )}
+      <LocaleSelect
+        locales={locales}
+        currentLocale={currentLocale}
+        handleSelectLocale={handleSelectLocale}
+      />
 
       <div className="flex flex-col justify-items-center items-center">
         <div className="mb-2">
