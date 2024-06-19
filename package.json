@@ -62,7 +62,7 @@
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "contentful-import": "^8.1.16",
-    "postcss": "^7.0.36",
+    "postcss": "^8.4.31",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.2"
   }
 }
